@@ -1,4 +1,4 @@
-"""Second batch of extended evaluations. TESTBED-SYNTHETIC, scripted agents, no LLM.
+"""Experiments E8-E16. TESTBED-SYNTHETIC, scripted agents, no LLM.
 
 E8  design-pattern comparison: re-implementations of prior response/defense
     PATTERNS inside this testbed (not the original systems of any cited paper)

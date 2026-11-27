@@ -1,6 +1,6 @@
-"""Third batch of evaluations, added in response to peer review. TESTBED-SYNTHETIC unless stated.
+"""Experiments E17-E18. TESTBED-SYNTHETIC unless stated.
 
-E17 repeated-isolation campaigns and the per-device cumulative restriction budget
+E17 repeated-restriction campaigns and the per-device cumulative restriction budget
 E18 policy decision table evaluated through the real engine (appendix table)
 """
 from __future__ import annotations
