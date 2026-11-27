@@ -1,0 +1,31 @@
+evidence_class,defense,strategy,legitimate,incidents_per_shift,device_seconds_restricted,device_hours_restricted,reviews,seeds
+testbed-synthetic,B1 unguarded,"one device, every 12 min (naive)",False,40,12000.0,3.3333333333333335,0.0,5
+testbed-synthetic,B1 unguarded,"one device, every 20 min (budget-aware)",False,24,7200.0,2.0,0.0,5
+testbed-synthetic,B1 unguarded,"four devices in rotation, every 12 min (spread)",False,40,12000.0,3.3333333333333335,0.0,5
+testbed-synthetic,B1 unguarded,"four devices in rotation, every 5 min (spread, fast)",False,96,28800.0,8.0,0.0,5
+testbed-synthetic,B1 unguarded,"four devices in rotation, every 5 min, during a benign fleet-wide event (shared indicator)",False,96,28800.0,8.0,0.0,5
+testbed-synthetic,B1 unguarded,"genuine botnet on four devices, every 5 min (legitimate)",True,96,72600.0,20.166666666666668,14.6,5
+testbed-synthetic,"B2, no budget","one device, every 12 min (naive)",False,40,7320.0,2.033333333333333,15.6,5
+testbed-synthetic,"B2, no budget","one device, every 20 min (budget-aware)",False,24,4320.0,1.2,9.6,5
+testbed-synthetic,"B2, no budget","four devices in rotation, every 12 min (spread)",False,40,7560.0,2.1,14.8,5
+testbed-synthetic,"B2, no budget","four devices in rotation, every 5 min (spread, fast)",False,96,17760.0,4.933333333333334,36.8,5
+testbed-synthetic,"B2, no budget","four devices in rotation, every 5 min, during a benign fleet-wide event (shared indicator)",False,96,17760.0,4.933333333333334,36.8,5
+testbed-synthetic,"B2, no budget","genuine botnet on four devices, every 5 min (legitimate)",True,96,23520.0,6.533333333333333,17.6,5
+testbed-synthetic,"B2, device budget 900 s/h","one device, every 12 min (naive)",False,40,5340.0,1.4833333333333334,22.2,5
+testbed-synthetic,"B2, device budget 900 s/h","one device, every 20 min (budget-aware)",False,24,3960.0,1.1,10.8,5
+testbed-synthetic,"B2, device budget 900 s/h","four devices in rotation, every 12 min (spread)",False,40,7560.0,2.1,14.8,5
+testbed-synthetic,"B2, device budget 900 s/h","four devices in rotation, every 5 min (spread, fast)",False,96,15840.0,4.4,43.2,5
+testbed-synthetic,"B2, device budget 900 s/h","four devices in rotation, every 5 min, during a benign fleet-wide event (shared indicator)",False,96,15840.0,4.4,43.2,5
+testbed-synthetic,"B2, device budget 900 s/h","genuine botnet on four devices, every 5 min (legitimate)",True,96,18540.0,5.15,34.2,5
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h","one device, every 12 min (naive)",False,40,5340.0,1.4833333333333334,22.2,5
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h","one device, every 20 min (budget-aware)",False,24,3960.0,1.1,10.8,5
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h","four devices in rotation, every 12 min (spread)",False,40,7560.0,2.1,14.8,5
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h","four devices in rotation, every 5 min (spread, fast)",False,96,12300.0,3.4166666666666665,55.0,5
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h","four devices in rotation, every 5 min, during a benign fleet-wide event (shared indicator)",False,96,12300.0,3.4166666666666665,55.0,5
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h","genuine botnet on four devices, every 5 min (legitimate)",True,96,13200.0,3.6666666666666665,52.0,5
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h with corroboration","one device, every 12 min (naive)",False,40,5340.0,1.4833333333333334,22.2,5
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h with corroboration","one device, every 20 min (budget-aware)",False,24,3960.0,1.1,10.8,5
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h with corroboration","four devices in rotation, every 12 min (spread)",False,40,7560.0,2.1,14.8,5
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h with corroboration","four devices in rotation, every 5 min (spread, fast)",False,96,12300.0,3.4166666666666665,55.0,5
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h with corroboration","four devices in rotation, every 5 min, during a benign fleet-wide event (shared indicator)",False,96,15840.0,4.4,43.2,5
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h with corroboration","genuine botnet on four devices, every 5 min (legitimate)",True,96,18540.0,5.15,34.2,5

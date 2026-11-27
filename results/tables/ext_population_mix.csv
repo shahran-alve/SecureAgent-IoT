@@ -1,0 +1,7 @@
+family,n_templates
+benign_burst,665
+botnet,329
+scanning,299
+exfiltration,277
+critical_anomaly,230
+sparse_evidence,200

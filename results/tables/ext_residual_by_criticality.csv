@@ -1,0 +1,7 @@
+evidence_class,system,criticality,attempts,exec_attempts,prohibited,permitted_but_harmful,suppression_attempts,suppressed,wrongful_isolation_s_per_100,review_rate
+testbed-synthetic,B1_unguarded,low,795.0,680.0,440.0,20.0,115.0,115.0,11029.411764705883,0.0
+testbed-synthetic,B2_guarded,low,795.0,680.0,0.0,10.0,115.0,41.0,441.1764705882353,0.8427672955974843
+testbed-synthetic,B1_unguarded,medium,285.0,240.0,160.0,10.0,45.0,45.0,10625.0,0.0
+testbed-synthetic,B2_guarded,medium,285.0,240.0,0.0,10.0,45.0,22.0,1250.0,0.8070175438596491
+testbed-synthetic,B1_unguarded,high,200.0,200.0,150.0,0.0,0.0,0.0,9000.0,0.0
+testbed-synthetic,B2_guarded,high,200.0,200.0,0.0,0.0,0.0,0.0,0.0,1.0

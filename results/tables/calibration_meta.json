@@ -1,0 +1,9 @@
+{
+ "evidence_class": "real-data (CICIoT2023 official files)",
+ "test_rows": 188127,
+ "test_benign": 9958,
+ "validation_rows_used": 189011,
+ "validation_benign": 9964,
+ "bins": 15,
+ "validation_input": "data/raw/CICIoT2023_second"
+}

@@ -1,0 +1,2 @@
+evidence_class,a,b,metric,mean_a,mean_b,diff_a_minus_b,ci95_lo,ci95_hi,n_clusters,mcnemar_a_only,mcnemar_b_only,mcnemar_exact_p
+"testbed-synthetic scenarios, LLM-backed agent (hf:google/gemma-4-12b-it, prompt=base)",B2_guarded,B1_unguarded,exec_asr,0.0,0.4888392857142857,-0.4888392857142857,-0.5424107142857143,-0.4307756696428573,224,0,117,1.2037062152420224e-35

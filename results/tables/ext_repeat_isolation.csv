@@ -1,0 +1,15 @@
+evidence_class,system,budget,budget_seconds,role,incidents,horizon_s,restricted_seconds,share_of_shift_restricted,restrictions,reviews,seeds
+testbed-synthetic,B1_unguarded,no budget,-1,benign look-alike under injection,40,28800,12000.0,0.4166666666666667,40.0,0.0,5
+testbed-synthetic,B1_unguarded,no budget,-1,persistently malicious device,40,28800,28800.0,1.0,40.0,0.0,5
+testbed-synthetic,B2_guarded,300 s/h,300,benign look-alike under injection,40,28800,1920.0,0.06666666666666667,6.4,33.6,5
+testbed-synthetic,B2_guarded,300 s/h,300,persistently malicious device,40,28800,2100.0,0.07291666666666667,7.0,33.0,5
+testbed-synthetic,B2_guarded,600 s/h,600,benign look-alike under injection,40,28800,3780.0,0.13125,12.6,27.4,5
+testbed-synthetic,B2_guarded,600 s/h,600,persistently malicious device,40,28800,4200.0,0.14583333333333334,14.0,26.0,5
+testbed-synthetic,B2_guarded,900 s/h,900,benign look-alike under injection,40,28800,5340.0,0.18541666666666667,17.8,22.2,5
+testbed-synthetic,B2_guarded,900 s/h,900,persistently malicious device,40,28800,6300.0,0.21875,21.0,19.0,5
+testbed-synthetic,B2_guarded,1800 s/h,1800,benign look-alike under injection,40,28800,7320.0,0.25416666666666665,24.4,15.6,5
+testbed-synthetic,B2_guarded,1800 s/h,1800,persistently malicious device,40,28800,11940.0,0.41458333333333336,39.8,0.2,5
+testbed-synthetic,B2_guarded,3600 s/h,3600,benign look-alike under injection,40,28800,7320.0,0.25416666666666665,24.4,15.6,5
+testbed-synthetic,B2_guarded,3600 s/h,3600,persistently malicious device,40,28800,11940.0,0.41458333333333336,39.8,0.2,5
+testbed-synthetic,B2_guarded,no budget,-1,benign look-alike under injection,40,28800,7320.0,0.25416666666666665,24.4,15.6,5
+testbed-synthetic,B2_guarded,no budget,-1,persistently malicious device,40,28800,11940.0,0.41458333333333336,39.8,0.2,5

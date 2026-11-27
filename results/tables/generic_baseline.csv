@@ -1,0 +1,4 @@
+evidence_class,system,clean_safe_containment,clean_false_isolation,clean_unauthorized,clean_review_rate,attack_prohibited_executions,attack_exec_attempts,attack_benign_or_victim_isolated,attack_high_crit_isolated_no_approval,attack_wrongful_s_per_100,control_wrongful_s_per_100,attack_suppression,attack_review_rate
+testbed-synthetic (E40-E47),B1_unguarded,0.19375,0.008,0.29411764705882354,0.36764705882352944,750,1120,395,150,12991.071428571428,2383.9285714285716,1.0,0.0
+testbed-synthetic (E40-E47),B_generic,0.55625,0.008,0.12352941176470589,0.36764705882352944,513,1120,365,120,12187.5,2383.9285714285716,1.0,0.375
+testbed-synthetic (E40-E47),B2_guarded,0.55625,0.008,0.0,0.49117647058823527,0,1120,20,0,535.7142857142857,53.57142857142857,0.39375,0.859375

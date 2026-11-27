@@ -1,0 +1,8 @@
+evidence_class,setting,devices,fleet_budget_s_per_h,corroboration_devices,shared_indicator,bound_device_hours,attained_device_hours,granted_device_hours,attained_share_of_bound,reviews_when_requesting_every_minute,downtime_when_requesting_every_minute_h
+testbed-synthetic (real policy engine and controller; trusted state at the attacker's best case),"device budget only, 1 device",1,0,0,False,2.0,2.0,2.0,1.0,360,2.0
+testbed-synthetic (real policy engine and controller; trusted state at the attacker's best case),"device budget only, 4 devices",4,0,0,False,8.0,8.0,8.0,1.0,1440,8.0
+testbed-synthetic (real policy engine and controller; trusted state at the attacker's best case),"device budget only, 8 devices",8,0,0,False,16.0,16.0,16.0,1.0,2880,16.0
+testbed-synthetic (real policy engine and controller; trusted state at the attacker's best case),"device + fleet budget, 4 devices",4,1800,0,False,4.0,4.0,4.0,1.0,1680,4.0
+testbed-synthetic (real policy engine and controller; trusted state at the attacker's best case),"device + fleet budget, 8 devices",8,1800,0,False,4.0,4.0,4.0,1.0,3600,4.0
+testbed-synthetic (real policy engine and controller; trusted state at the attacker's best case),"fleet budget with corroboration, 8 devices, no shared indicator",8,1800,2,False,4.0,4.0,4.0,1.0,3600,4.0
+testbed-synthetic (real policy engine and controller; trusted state at the attacker's best case),"fleet budget with corroboration, 8 devices, shared indicator",8,1800,2,True,16.0,16.0,16.0,1.0,2880,16.0

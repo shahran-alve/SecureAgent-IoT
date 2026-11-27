@@ -1,0 +1,101 @@
+label,per_attempt_rate,attempts,p_at_least_one,source
+"B1 unguarded, compliance 0.25",0.2223214285714285,1,0.22232142857142856,this testbed
+"B1 unguarded, compliance 0.25",0.2223214285714285,2,0.3952160395408163,this testbed
+"B1 unguarded, compliance 0.25",0.2223214285714285,5,0.7155534558751842,this testbed
+"B1 unguarded, compliance 0.25",0.2223214285714285,10,0.9190901635354491,this testbed
+"B1 unguarded, compliance 0.25",0.2223214285714285,20,0.9934535983632796,this testbed
+"B1 unguarded, compliance 0.25",0.2223214285714285,50,0.9999965325786665,this testbed
+"B1 unguarded, compliance 0.25",0.2223214285714285,100,0.999999999987977,this testbed
+"B1 unguarded, compliance 0.25",0.2223214285714285,200,1.0,this testbed
+"B1 unguarded, compliance 0.25",0.2223214285714285,500,1.0,this testbed
+"B1 unguarded, compliance 0.25",0.2223214285714285,1000,1.0,this testbed
+"B1 unguarded, compliance 1.0",0.6696428571428571,1,0.6696428571428571,this testbed
+"B1 unguarded, compliance 1.0",0.6696428571428571,2,0.8908641581632653,this testbed
+"B1 unguarded, compliance 1.0",0.6696428571428571,5,0.9960652376516405,this testbed
+"B1 unguarded, compliance 1.0",0.6696428571428571,10,0.999984517645262,this testbed
+"B1 unguarded, compliance 1.0",0.6696428571428571,20,0.9999999997602967,this testbed
+"B1 unguarded, compliance 1.0",0.6696428571428571,50,1.0,this testbed
+"B1 unguarded, compliance 1.0",0.6696428571428571,100,1.0,this testbed
+"B1 unguarded, compliance 1.0",0.6696428571428571,200,1.0,this testbed
+"B1 unguarded, compliance 1.0",0.6696428571428571,500,1.0,this testbed
+"B1 unguarded, compliance 1.0",0.6696428571428571,1000,1.0,this testbed
+"B1 + injection filter, recall 0.9",0.12410714285714286,1,0.12410714285714286,this testbed
+"B1 + injection filter, recall 0.9",0.12410714285714286,2,0.2328117028061224,this testbed
+"B1 + injection filter, recall 0.9",0.12410714285714286,5,0.48446883610038594,this testbed
+"B1 + injection filter, recall 0.9",0.12410714285714286,10,0.7342276190483092,this testbed
+"B1 + injection filter, recall 0.9",0.12410714285714286,20,0.9293650415232694,this testbed
+"B1 + injection filter, recall 0.9",0.12410714285714286,50,0.9986739825616201,this testbed
+"B1 + injection filter, recall 0.9",0.12410714285714286,100,0.9999982416777531,this testbed
+"B1 + injection filter, recall 0.9",0.12410714285714286,200,0.9999999999969083,this testbed
+"B1 + injection filter, recall 0.9",0.12410714285714286,500,1.0,this testbed
+"B1 + injection filter, recall 0.9",0.12410714285714286,1000,1.0,this testbed
+"B1 + injection filter, recall 0.99",0.07142857142857142,1,0.0714285714285714,this testbed
+"B1 + injection filter, recall 0.99",0.07142857142857142,2,0.1377551020408163,this testbed
+"B1 + injection filter, recall 0.99",0.07142857142857142,5,0.30963846909025994,this testbed
+"B1 + injection filter, recall 0.99",0.07142857142857142,10,0.52340095663996,this testbed
+"B1 + injection filter, recall 0.99",0.07142857142857142,20,0.7728533518682947,this testbed
+"B1 + injection filter, recall 0.99",0.07142857142857142,50,0.9754095865140029,this testbed
+"B1 + injection filter, recall 0.99",0.07142857142857142,100,0.9993953115645877,this testbed
+"B1 + injection filter, recall 0.99",0.07142857142857142,200,0.9999996343518961,this testbed
+"B1 + injection filter, recall 0.99",0.07142857142857142,500,0.9999999999999999,this testbed
+"B1 + injection filter, recall 0.99",0.07142857142857142,1000,1.0,this testbed
+B2 guarded (0 observed; exact 95% upper bound),0.013284772806081091,1,0.013284772806081091,this testbed
+B2 guarded (0 observed; exact 95% upper bound),0.013284772806081091,2,0.02639306042365297,this testbed
+B2 guarded (0 observed; exact 95% upper bound),0.013284772806081091,5,0.0646823024803157,this testbed
+B2 guarded (0 observed; exact 95% upper bound),0.013284772806081091,10,0.1251808047064763,this testbed
+B2 guarded (0 observed; exact 95% upper bound),0.013284772806081091,20,0.23469137554599162,this testbed
+B2 guarded (0 observed; exact 95% upper bound),0.013284772806081091,50,0.4876207674959967,this testbed
+B2 guarded (0 observed; exact 95% upper bound),0.013284772806081091,100,0.7374675220986086,this testbed
+B2 guarded (0 observed; exact 95% upper bound),0.013284772806081091,200,0.9310766980469554,this testbed
+B2 guarded (0 observed; exact 95% upper bound),0.013284772806081091,500,0.9987528600588482,this testbed
+B2 guarded (0 observed; exact 95% upper bound),0.013284772806081091,1000,0.9999984446419672,this testbed
+"InjecAgent: GPT-4 ReAct agent, no defense",0.24,1,0.24,reported in prior work (different setting)
+"InjecAgent: GPT-4 ReAct agent, no defense",0.24,2,0.4224,reported in prior work (different setting)
+"InjecAgent: GPT-4 ReAct agent, no defense",0.24,5,0.7464474623999999,reported in prior work (different setting)
+"InjecAgent: GPT-4 ReAct agent, no defense",0.24,10,0.9357111106766006,reported in prior work (different setting)
+"InjecAgent: GPT-4 ReAct agent, no defense",0.24,20,0.9958669387095637,reported in prior work (different setting)
+"InjecAgent: GPT-4 ReAct agent, no defense",0.24,50,0.9999989018046157,reported in prior work (different setting)
+"InjecAgent: GPT-4 ReAct agent, no defense",0.24,100,0.999999999998794,reported in prior work (different setting)
+"InjecAgent: GPT-4 ReAct agent, no defense",0.24,200,1.0,reported in prior work (different setting)
+"InjecAgent: GPT-4 ReAct agent, no defense",0.24,500,1.0,reported in prior work (different setting)
+"InjecAgent: GPT-4 ReAct agent, no defense",0.24,1000,1.0,reported in prior work (different setting)
+AgentDojo: agent + secondary attack detector,0.08,1,0.07999999999999996,reported in prior work (different setting)
+AgentDojo: agent + secondary attack detector,0.08,2,0.15359999999999996,reported in prior work (different setting)
+AgentDojo: agent + secondary attack detector,0.08,5,0.34091847679999987,reported in prior work (different setting)
+AgentDojo: agent + secondary attack detector,0.08,10,0.5656115457763677,reported in prior work (different setting)
+AgentDojo: agent + secondary attack detector,0.08,20,0.8113066708372033,reported in prior work (different setting)
+AgentDojo: agent + secondary attack detector,0.08,50,0.9845335241681565,reported in prior work (different setting)
+AgentDojo: agent + secondary attack detector,0.08,100,0.999760788125343,reported in prior work (different setting)
+AgentDojo: agent + secondary attack detector,0.08,200,0.999999942777679,reported in prior work (different setting)
+AgentDojo: agent + secondary attack detector,0.08,500,1.0,reported in prior work (different setting)
+AgentDojo: agent + secondary attack detector,0.08,1000,1.0,reported in prior work (different setting)
+Progent on AgentDojo (v1),0.022,1,0.02200000000000002,reported in prior work (different setting)
+Progent on AgentDojo (v1),0.022,2,0.043516,reported in prior work (different setting)
+Progent on AgentDojo (v1),0.022,5,0.10526531387363214,reported in prior work (different setting)
+Progent on AgentDojo (v1),0.022,10,0.1994498414423499,reported in prior work (different setting)
+Progent on AgentDojo (v1),0.022,20,0.35911944363332127,reported in prior work (different setting)
+Progent on AgentDojo (v1),0.022,50,0.6711917245147195,reported in prior work (different setting)
+Progent on AgentDojo (v1),0.022,100,0.8918851179723959,reported in prior work (different setting)
+Progent on AgentDojo (v1),0.022,200,0.9883111722841572,reported in prior work (different setting)
+Progent on AgentDojo (v1),0.022,500,0.9999852284049346,reported in prior work (different setting)
+Progent on AgentDojo (v1),0.022,1000,0.9999999997818,reported in prior work (different setting)
+"MetaSecAlign, static attacks",0.02,1,0.020000000000000018,reported in prior work (different setting)
+"MetaSecAlign, static attacks",0.02,2,0.03960000000000008,reported in prior work (different setting)
+"MetaSecAlign, static attacks",0.02,5,0.09607920320000007,reported in prior work (different setting)
+"MetaSecAlign, static attacks",0.02,10,0.1829271931124533,reported in prior work (different setting)
+"MetaSecAlign, static attacks",0.02,20,0.33239202824490577,reported in prior work (different setting)
+"MetaSecAlign, static attacks",0.02,50,0.6358303199128832,reported in prior work (different setting)
+"MetaSecAlign, static attacks",0.02,100,0.8673804441052471,reported in prior work (different setting)
+"MetaSecAlign, static attacks",0.02,200,0.9824120533942785,reported in prior work (different setting)
+"MetaSecAlign, static attacks",0.02,500,0.9999589760148545,reported in prior work (different setting)
+"MetaSecAlign, static attacks",0.02,1000,0.9999999983170327,reported in prior work (different setting)
+"MetaSecAlign, adaptive attacks",0.96,1,0.96,reported in prior work (different setting)
+"MetaSecAlign, adaptive attacks",0.96,2,0.9984,reported in prior work (different setting)
+"MetaSecAlign, adaptive attacks",0.96,5,0.9999998976,reported in prior work (different setting)
+"MetaSecAlign, adaptive attacks",0.96,10,0.9999999999999896,reported in prior work (different setting)
+"MetaSecAlign, adaptive attacks",0.96,20,1.0,reported in prior work (different setting)
+"MetaSecAlign, adaptive attacks",0.96,50,1.0,reported in prior work (different setting)
+"MetaSecAlign, adaptive attacks",0.96,100,1.0,reported in prior work (different setting)
+"MetaSecAlign, adaptive attacks",0.96,200,1.0,reported in prior work (different setting)
+"MetaSecAlign, adaptive attacks",0.96,500,1.0,reported in prior work (different setting)
+"MetaSecAlign, adaptive attacks",0.96,1000,1.0,reported in prior work (different setting)

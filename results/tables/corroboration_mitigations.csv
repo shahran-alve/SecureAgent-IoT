@@ -1,0 +1,21 @@
+evidence_class,defense,case,wrongful_device_hours,legitimate_device_hours,unrelated_contained_device_hours,reviews,proved_worst_case_device_hours,seeds
+testbed-synthetic (E40-E47),"fleet budget, no exemption","spread injection, 0 compromised devices",3.4166666666666665,,,55.0,4.0,5
+testbed-synthetic (E40-E47),"fleet budget, no exemption","spread injection, 1 compromised devices",3.4166666666666665,,,55.0,4.0,5
+testbed-synthetic (E40-E47),"fleet budget, no exemption","spread injection, 2 compromised devices",3.4166666666666665,,,55.0,4.0,5
+testbed-synthetic (E40-E47),"fleet budget, no exemption","spread injection, 4 compromised devices",3.4166666666666665,,,55.0,4.0,5
+testbed-synthetic (E40-E47),"fleet budget, no exemption",genuine botnet with an unrelated exfiltrating device,,2.816666666666667,1.0833333333333333,89.2,,5
+testbed-synthetic (E40-E47),unbounded exemption (k = 2),"spread injection, 0 compromised devices",3.4166666666666665,,,55.0,8.0,5
+testbed-synthetic (E40-E47),unbounded exemption (k = 2),"spread injection, 1 compromised devices",3.4166666666666665,,,55.0,8.0,5
+testbed-synthetic (E40-E47),unbounded exemption (k = 2),"spread injection, 2 compromised devices",4.4,,,43.2,8.0,5
+testbed-synthetic (E40-E47),unbounded exemption (k = 2),"spread injection, 4 compromised devices",4.4,,,43.2,8.0,5
+testbed-synthetic (E40-E47),unbounded exemption (k = 2),genuine botnet with an unrelated exfiltrating device,,5.15,0.16666666666666666,72.2,,5
+testbed-synthetic (E40-E47),"bounded exemption, B_c = 900 s/h","spread injection, 0 compromised devices",3.4166666666666665,,,55.0,6.0,5
+testbed-synthetic (E40-E47),"bounded exemption, B_c = 900 s/h","spread injection, 1 compromised devices",3.4166666666666665,,,55.0,6.0,5
+testbed-synthetic (E40-E47),"bounded exemption, B_c = 900 s/h","spread injection, 2 compromised devices",3.816666666666667,,,50.2,6.0,5
+testbed-synthetic (E40-E47),"bounded exemption, B_c = 900 s/h","spread injection, 4 compromised devices",3.816666666666667,,,50.2,6.0,5
+testbed-synthetic (E40-E47),"bounded exemption, B_c = 900 s/h",genuine botnet with an unrelated exfiltrating device,,3.683333333333333,0.8333333333333334,81.8,,5
+testbed-synthetic (E40-E47),unbounded exemption + hard fleet ceiling 2700 s/h,"spread injection, 0 compromised devices",3.4166666666666665,,,55.0,6.0,5
+testbed-synthetic (E40-E47),unbounded exemption + hard fleet ceiling 2700 s/h,"spread injection, 1 compromised devices",3.4166666666666665,,,55.0,6.0,5
+testbed-synthetic (E40-E47),unbounded exemption + hard fleet ceiling 2700 s/h,"spread injection, 2 compromised devices",4.283333333333333,,,44.6,6.0,5
+testbed-synthetic (E40-E47),unbounded exemption + hard fleet ceiling 2700 s/h,"spread injection, 4 compromised devices",4.283333333333333,,,44.6,6.0,5
+testbed-synthetic (E40-E47),unbounded exemption + hard fleet ceiling 2700 s/h,genuine botnet with an unrelated exfiltrating device,,4.85,0.23333333333333334,75.0,,5

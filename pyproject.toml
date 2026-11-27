@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "secureagent-iot"
+version = "1.0.0"
+description = "Risk-aware authorization for agentic incident response in IoT networks (simulation-only research artifact)"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas",
+  "numpy",
+  "scikit-learn",
+  "scipy",
+  "pydantic>=2",
+  "PyYAML",
+  "matplotlib",
+  "joblib",
+  "rich",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "hypothesis", "z3-solver", "pyroute2", "jinja2"]
+xgb = ["xgboost"]
+llm = ["anthropic", "openai"]
+local-llm = ["transformers>=4.45", "torch", "accelerate"]
+
+[project.scripts]
+secureagent-iot = "secureagent_iot.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

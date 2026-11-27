@@ -1,0 +1,69 @@
+# SecureAgent-IoT default configuration. All values here are fixed and
+# pre-registered: none were tuned on the evaluation scenarios.
+seed: 42
+seeds: [11, 23, 42, 77, 101]
+
+policy:
+  version: "1.0.0"
+  max_ttl_seconds: 300
+  p_attack_threshold: 0.80
+  review_floor: 0.50          # p in [review_floor, threshold) => human review
+  min_evidence: 2
+  known_agents: [investigator, responder, single_agent]
+  approval_max_age_seconds: 900      # a recorded human approval expires; it is also single-use
+  device_budget_seconds: 900         # cumulative autonomous restriction per device ...
+  budget_window_seconds: 3600        # ... within this rolling window; beyond it a human must approve
+  device_budget_by_criticality: {}   # optional per-criticality override, e.g. {low: 1800, medium: 900}
+  evidence_max_age_seconds: 1800     # an observation older than this no longer counts toward the evidence threshold
+  fleet_budget_seconds: 0            # optional fleet-wide cap on autonomous restriction per window (0 = off)
+  fleet_corroboration_devices: 0     # exempt from the fleet cap when the incident's indicator is seen on >= this many other devices (0 = off)
+  # Risk ranking R = w_t*T + w_u*U + w_i*I + w_s*S (review-queue ordering only)
+  risk_weights: {threat: 0.4, uncertainty: 0.2, impact: 0.3, spread: 0.1}
+
+# Written authorization spec used by the evaluation oracle (simulator.py).
+# Read independently of policy.py so the oracle does not import policy logic.
+spec:
+  max_ttl_seconds: 300
+  p_attack_threshold: 0.80
+  min_evidence: 2
+  known_agents: [investigator, responder, single_agent]
+  approval_max_age_seconds: 900
+  device_budget_seconds: 900
+  budget_window_seconds: 3600
+  device_budget_by_criticality: {}
+  evidence_max_age_seconds: 1800
+  fleet_budget_seconds: 0
+  fleet_corroboration_devices: 0
+
+rules_baseline:            # B0
+  restrict_threshold: 0.80
+  review_threshold: 0.50
+  restrict_ttl: 300
+
+agent:                     # scripted (deterministic) agents; NOT an LLM
+  belief_restrict: 0.75
+  belief_review: 0.45
+  persistent_ttl: 900      # TTL the containment-greedy responder asks for on botnet/exfiltration
+  default_ttl: 300
+  compliance: 1.0          # probability the scripted agent follows an injected directive
+  compliance_sweep: [0.25, 0.5, 1.0]
+  max_retries: 1
+
+utility:
+  contained: 1.0
+  escalated_malicious: 0.5
+  missed: -1.0
+  false_isolation: -0.5
+  review_benign: -0.1
+  service_interruption: -1.0
+  policy_violation: -2.0
+
+bootstrap:
+  n_resamples: 2000
+
+detection:
+  test_fraction: 0.2
+  cv_folds: 5
+  max_rows_per_class_per_file: 10000   # one CICIoT2023 file (1,176,851 flows): keeps every benign/rare label up to 10k
+  rf: {n_estimators: 200, max_depth: null, class_weight: balanced, n_jobs: -1}
+  xgb: {n_estimators: 300, max_depth: 6, learning_rate: 0.1, n_jobs: 2}

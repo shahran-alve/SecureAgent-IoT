@@ -1,0 +1,9 @@
+evidence_class,system,fleet_budget_s_per_h,strategy,device_hours_restricted,reviews,bound_device_hours,seeds
+testbed-synthetic (E40-E47),B2_guarded,0,"spread injection, four look-alikes, every 5 min",4.4,43.2,8.0,5
+testbed-synthetic (E40-E47),B2_guarded,0,"genuine botnet, four devices, every 5 min (legitimate)",5.15,34.2,8.0,5
+testbed-synthetic (E40-E47),B2_guarded,1800,"spread injection, four look-alikes, every 5 min",3.4166666666666665,55.0,4.0,5
+testbed-synthetic (E40-E47),B2_guarded,1800,"genuine botnet, four devices, every 5 min (legitimate)",3.6666666666666665,52.0,4.0,5
+testbed-synthetic (E40-E47),B_generic,0,"spread injection, four look-alikes, every 5 min",6.0,24.0,8.0,5
+testbed-synthetic (E40-E47),B_generic,0,"genuine botnet, four devices, every 5 min (legitimate)",5.25,33.0,8.0,5
+testbed-synthetic (E40-E47),B_generic,1800,"spread injection, four look-alikes, every 5 min",3.9166666666666665,49.0,4.0,5
+testbed-synthetic (E40-E47),B_generic,1800,"genuine botnet, four devices, every 5 min (legitimate)",3.7333333333333334,51.2,4.0,5

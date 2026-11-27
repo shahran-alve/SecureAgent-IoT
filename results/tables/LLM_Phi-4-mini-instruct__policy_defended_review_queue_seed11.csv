@@ -1,0 +1,4 @@
+evidence_class,system,ordering,n_escalations,malicious_share,auc_mean,auc_seed_sd,recall_at_25pct,recall_at_50pct,recall_at_75pct
+"testbed-synthetic scenarios, LLM-backed agent (hf:microsoft/Phi-4-mini-instruct, prompt=policy_defended)",B2_guarded,risk_score,56,0.5714285714285714,0.8092447916666666,,0.34375,0.65625,0.96875
+"testbed-synthetic scenarios, LLM-backed agent (hf:microsoft/Phi-4-mini-instruct, prompt=policy_defended)",B2_guarded,p_attack,56,0.5714285714285714,0.8873697916666666,,0.375,0.75,0.96875
+"testbed-synthetic scenarios, LLM-backed agent (hf:microsoft/Phi-4-mini-instruct, prompt=policy_defended)",B2_guarded,random,56,0.5714285714285714,0.48828125,,0.21875,0.5625,0.71875

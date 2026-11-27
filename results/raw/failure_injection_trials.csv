@@ -1,0 +1,361 @@
+failure,design,trial,value,unit
+8 concurrent requests for one device,naive,0,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,naive,1,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,naive,2,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,naive,3,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,naive,4,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,naive,5,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,naive,6,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,naive,7,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,naive,8,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,naive,9,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,naive,10,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,naive,11,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,naive,12,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,naive,13,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,naive,14,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,naive,15,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,naive,16,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,naive,17,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,naive,18,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,naive,19,2400.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,0,900.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,1,900.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,2,900.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,3,900.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,4,900.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,5,900.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,6,900.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,7,900.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,8,900.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,9,900.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,10,900.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,11,900.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,12,900.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,13,900.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,14,900.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,15,900.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,16,900.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,17,900.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,18,900.0,granted seconds for the device in one window
+8 concurrent requests for one device,atomic,19,900.0,granted seconds for the device in one window
+controller restart within the window,naive,0,1800.0,granted seconds for the device in one window
+controller restart within the window,naive,1,1800.0,granted seconds for the device in one window
+controller restart within the window,naive,2,1800.0,granted seconds for the device in one window
+controller restart within the window,naive,3,1800.0,granted seconds for the device in one window
+controller restart within the window,naive,4,1800.0,granted seconds for the device in one window
+controller restart within the window,naive,5,1800.0,granted seconds for the device in one window
+controller restart within the window,naive,6,1800.0,granted seconds for the device in one window
+controller restart within the window,naive,7,1800.0,granted seconds for the device in one window
+controller restart within the window,naive,8,1800.0,granted seconds for the device in one window
+controller restart within the window,naive,9,1800.0,granted seconds for the device in one window
+controller restart within the window,naive,10,1800.0,granted seconds for the device in one window
+controller restart within the window,naive,11,1800.0,granted seconds for the device in one window
+controller restart within the window,naive,12,1800.0,granted seconds for the device in one window
+controller restart within the window,naive,13,1800.0,granted seconds for the device in one window
+controller restart within the window,naive,14,1800.0,granted seconds for the device in one window
+controller restart within the window,naive,15,1800.0,granted seconds for the device in one window
+controller restart within the window,naive,16,1800.0,granted seconds for the device in one window
+controller restart within the window,naive,17,1800.0,granted seconds for the device in one window
+controller restart within the window,naive,18,1800.0,granted seconds for the device in one window
+controller restart within the window,naive,19,1800.0,granted seconds for the device in one window
+controller restart within the window,atomic,0,900.0,granted seconds for the device in one window
+controller restart within the window,atomic,1,900.0,granted seconds for the device in one window
+controller restart within the window,atomic,2,900.0,granted seconds for the device in one window
+controller restart within the window,atomic,3,900.0,granted seconds for the device in one window
+controller restart within the window,atomic,4,900.0,granted seconds for the device in one window
+controller restart within the window,atomic,5,900.0,granted seconds for the device in one window
+controller restart within the window,atomic,6,900.0,granted seconds for the device in one window
+controller restart within the window,atomic,7,900.0,granted seconds for the device in one window
+controller restart within the window,atomic,8,900.0,granted seconds for the device in one window
+controller restart within the window,atomic,9,900.0,granted seconds for the device in one window
+controller restart within the window,atomic,10,900.0,granted seconds for the device in one window
+controller restart within the window,atomic,11,900.0,granted seconds for the device in one window
+controller restart within the window,atomic,12,900.0,granted seconds for the device in one window
+controller restart within the window,atomic,13,900.0,granted seconds for the device in one window
+controller restart within the window,atomic,14,900.0,granted seconds for the device in one window
+controller restart within the window,atomic,15,900.0,granted seconds for the device in one window
+controller restart within the window,atomic,16,900.0,granted seconds for the device in one window
+controller restart within the window,atomic,17,900.0,granted seconds for the device in one window
+controller restart within the window,atomic,18,900.0,granted seconds for the device in one window
+controller restart within the window,atomic,19,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,0,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,1,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,2,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,3,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,4,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,5,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,6,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,7,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,8,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,9,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,10,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,11,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,12,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,13,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,14,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,15,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,16,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,17,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,18,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,naive,19,1800.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,0,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,1,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,2,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,3,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,4,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,5,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,6,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,7,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,8,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,9,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,10,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,11,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,12,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,13,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,14,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,15,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,16,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,17,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,18,900.0,granted seconds for the device in one window
+wall-clock step forward by one window,atomic,19,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,0,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,1,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,2,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,3,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,4,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,5,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,6,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,7,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,8,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,9,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,10,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,11,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,12,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,13,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,14,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,15,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,16,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,17,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,18,900.0,granted seconds for the device in one window
+rule installation fails after the grant,atomic,19,900.0,granted seconds for the device in one window
+ledger entry deleted on disk,atomic,0,0.0,seconds granted after tampering (0 = refused)
+ledger entry deleted on disk,atomic,1,0.0,seconds granted after tampering (0 = refused)
+ledger entry deleted on disk,atomic,2,0.0,seconds granted after tampering (0 = refused)
+ledger entry deleted on disk,atomic,3,0.0,seconds granted after tampering (0 = refused)
+ledger entry deleted on disk,atomic,4,0.0,seconds granted after tampering (0 = refused)
+ledger entry deleted on disk,atomic,5,0.0,seconds granted after tampering (0 = refused)
+ledger entry deleted on disk,atomic,6,0.0,seconds granted after tampering (0 = refused)
+ledger entry deleted on disk,atomic,7,0.0,seconds granted after tampering (0 = refused)
+ledger entry deleted on disk,atomic,8,0.0,seconds granted after tampering (0 = refused)
+ledger entry deleted on disk,atomic,9,0.0,seconds granted after tampering (0 = refused)
+ledger entry deleted on disk,atomic,10,0.0,seconds granted after tampering (0 = refused)
+ledger entry deleted on disk,atomic,11,0.0,seconds granted after tampering (0 = refused)
+ledger entry deleted on disk,atomic,12,0.0,seconds granted after tampering (0 = refused)
+ledger entry deleted on disk,atomic,13,0.0,seconds granted after tampering (0 = refused)
+ledger entry deleted on disk,atomic,14,0.0,seconds granted after tampering (0 = refused)
+ledger entry deleted on disk,atomic,15,0.0,seconds granted after tampering (0 = refused)
+ledger entry deleted on disk,atomic,16,0.0,seconds granted after tampering (0 = refused)
+ledger entry deleted on disk,atomic,17,0.0,seconds granted after tampering (0 = refused)
+ledger entry deleted on disk,atomic,18,0.0,seconds granted after tampering (0 = refused)
+ledger entry deleted on disk,atomic,19,0.0,seconds granted after tampering (0 = refused)
+two authorizer processes on one ledger,per-process lock only,0,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,per-process lock only,1,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,per-process lock only,2,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,per-process lock only,3,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,per-process lock only,4,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,per-process lock only,5,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,per-process lock only,6,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,per-process lock only,7,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,per-process lock only,8,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,per-process lock only,9,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,per-process lock only,10,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,per-process lock only,11,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,per-process lock only,12,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,per-process lock only,13,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,per-process lock only,14,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,per-process lock only,15,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,per-process lock only,16,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,per-process lock only,17,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,per-process lock only,18,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,per-process lock only,19,1800.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,0,900.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,1,900.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,2,900.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,3,900.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,4,900.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,5,900.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,6,900.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,7,900.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,8,900.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,9,900.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,10,900.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,11,900.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,12,900.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,13,900.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,14,900.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,15,900.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,16,900.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,17,900.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,18,900.0,granted seconds for the device in one window
+two authorizer processes on one ledger,atomic,19,900.0,granted seconds for the device in one window
+crash during a ledger append (torn record),atomic,0,0.0,seconds granted after the torn write (0 = refused)
+crash during a ledger append (torn record),atomic,1,0.0,seconds granted after the torn write (0 = refused)
+crash during a ledger append (torn record),atomic,2,0.0,seconds granted after the torn write (0 = refused)
+crash during a ledger append (torn record),atomic,3,0.0,seconds granted after the torn write (0 = refused)
+crash during a ledger append (torn record),atomic,4,0.0,seconds granted after the torn write (0 = refused)
+crash during a ledger append (torn record),atomic,5,0.0,seconds granted after the torn write (0 = refused)
+crash during a ledger append (torn record),atomic,6,0.0,seconds granted after the torn write (0 = refused)
+crash during a ledger append (torn record),atomic,7,0.0,seconds granted after the torn write (0 = refused)
+crash during a ledger append (torn record),atomic,8,0.0,seconds granted after the torn write (0 = refused)
+crash during a ledger append (torn record),atomic,9,0.0,seconds granted after the torn write (0 = refused)
+crash during a ledger append (torn record),atomic,10,0.0,seconds granted after the torn write (0 = refused)
+crash during a ledger append (torn record),atomic,11,0.0,seconds granted after the torn write (0 = refused)
+crash during a ledger append (torn record),atomic,12,0.0,seconds granted after the torn write (0 = refused)
+crash during a ledger append (torn record),atomic,13,0.0,seconds granted after the torn write (0 = refused)
+crash during a ledger append (torn record),atomic,14,0.0,seconds granted after the torn write (0 = refused)
+crash during a ledger append (torn record),atomic,15,0.0,seconds granted after the torn write (0 = refused)
+crash during a ledger append (torn record),atomic,16,0.0,seconds granted after the torn write (0 = refused)
+crash during a ledger append (torn record),atomic,17,0.0,seconds granted after the torn write (0 = refused)
+crash during a ledger append (torn record),atomic,18,0.0,seconds granted after the torn write (0 = refused)
+crash during a ledger append (torn record),atomic,19,0.0,seconds granted after the torn write (0 = refused)
+rule installed 100 s after the grant,relative timer,0,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,relative timer,1,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,relative timer,2,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,relative timer,3,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,relative timer,4,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,relative timer,5,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,relative timer,6,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,relative timer,7,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,relative timer,8,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,relative timer,9,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,relative timer,10,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,relative timer,11,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,relative timer,12,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,relative timer,13,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,relative timer,14,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,relative timer,15,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,relative timer,16,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,relative timer,17,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,relative timer,18,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,relative timer,19,100.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,0,0.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,1,0.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,2,0.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,3,0.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,4,0.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,5,0.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,6,0.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,7,0.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,8,0.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,9,0.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,10,0.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,11,0.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,12,0.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,13,0.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,14,0.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,15,0.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,16,0.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,17,0.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,18,0.0,seconds the rule stayed active past s + delta
+rule installed 100 s after the grant,absolute expiry,19,0.0,seconds the rule stayed active past s + delta
+valid ledger suffix removed (truncation),chain only,0,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain only,1,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain only,2,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain only,3,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain only,4,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain only,5,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain only,6,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain only,7,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain only,8,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain only,9,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain only,10,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain only,11,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain only,12,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain only,13,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain only,14,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain only,15,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain only,16,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain only,17,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain only,18,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain only,19,1500.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,0,900.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,1,900.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,2,900.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,3,900.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,4,900.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,5,900.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,6,900.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,7,900.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,8,900.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,9,900.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,10,900.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,11,900.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,12,900.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,13,900.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,14,900.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,15,900.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,16,900.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,17,900.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,18,900.0,granted seconds for the device in one window
+valid ledger suffix removed (truncation),chain + head commitment,19,900.0,granted seconds for the device in one window
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,0,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,1,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,2,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,3,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,4,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,5,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,6,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,7,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,8,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,9,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,10,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,11,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,12,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,13,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,14,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,15,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,16,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,17,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,18,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",in-memory consumption,19,2.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,0,1.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,1,1.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,2,1.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,3,1.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,4,1.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,5,1.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,6,1.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,7,1.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,8,1.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,9,1.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,10,1.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,11,1.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,12,1.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,13,1.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,14,1.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,15,1.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,16,1.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,17,1.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,18,1.0,grants made on the one approval
+"one approval: 8 concurrent requests, then a restart",atomic,19,1.0,grants made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,0,1.0,releases made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,1,1.0,releases made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,2,1.0,releases made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,3,1.0,releases made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,4,1.0,releases made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,5,1.0,releases made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,6,1.0,releases made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,7,1.0,releases made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,8,1.0,releases made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,9,1.0,releases made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,10,1.0,releases made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,11,1.0,releases made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,12,1.0,releases made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,13,1.0,releases made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,14,1.0,releases made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,15,1.0,releases made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,16,1.0,releases made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,17,1.0,releases made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,18,1.0,releases made on the one approval
+"one release approval: 8 concurrent releases, then a restart",atomic,19,1.0,releases made on the one approval

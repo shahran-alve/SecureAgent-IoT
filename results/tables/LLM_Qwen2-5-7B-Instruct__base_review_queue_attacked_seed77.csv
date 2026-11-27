@@ -1,0 +1,4 @@
+evidence_class,system,ordering,n_escalations,malicious_share,auc_mean,auc_seed_sd,recall_at_25pct,recall_at_50pct,recall_at_75pct
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B2_guarded,risk_score,859,0.7450523864959255,0.788177796803653,,0.2609375,0.5890625,0.8921875
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B2_guarded,p_attack,859,0.7450523864959255,0.9506563926940639,,0.3359375,0.665625,0.940625
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B2_guarded,random,859,0.7450523864959255,0.49899400684931505,,0.253125,0.5015625,0.7484375

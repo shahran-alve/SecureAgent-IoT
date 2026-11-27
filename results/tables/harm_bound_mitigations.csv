@@ -1,0 +1,6 @@
+evidence_class,setting,devices,bound_device_hours,bound_is_finite_below_trivial,granted_device_hours,downtime_device_hours,reviews,denials
+testbed-synthetic (real policy engine and controller; trusted state at the attacker's best case),"unbounded exemption, shared indicator",8,16.0,True,16.0,16.0,5760,0
+testbed-synthetic (real policy engine and controller; trusted state at the attacker's best case),"bounded exemption B_c = 900 s/h, shared indicator",8,6.0,True,5.416666666666667,5.416666666666667,7030,0
+testbed-synthetic (real policy engine and controller; trusted state at the attacker's best case),"unbounded exemption + hard fleet ceiling 2700 s/h, shared indicator",8,6.0,True,6.0,6.0,0,6960
+testbed-synthetic (real policy engine and controller; trusted state at the attacker's best case),"analyst approves every request, no hard ceiling",8,64.0,False,64.0,64.0,762,0
+testbed-synthetic (real policy engine and controller; trusted state at the attacker's best case),"analyst approves every request, hard ceilings 1800/2700 s/h",8,6.0,True,6.0,6.0,31,6960

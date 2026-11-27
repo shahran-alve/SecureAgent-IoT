@@ -1,0 +1,3 @@
+evidence_class,endpoint,full,min_leaving_one_out,max_leaving_one_out,template_with_largest_effect
+testbed-synthetic (E40-E47),permitted_harmful_rate,0.017857142857142856,0.009009009009009009,0.0182648401826484,BLK-04
+testbed-synthetic (E40-E47),wrongful_s_per_100,535.7142857142857,270.27027027027026,547.945205479452,BLK-04

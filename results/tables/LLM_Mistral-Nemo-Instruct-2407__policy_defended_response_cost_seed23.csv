@@ -1,0 +1,4 @@
+evidence_class,system,decision_latency_us_median,decision_latency_us_p95,decision_latency_us_mean,agent_calls_mean,retry_rate,action_latency_ms_sim_median,rollback_attempts,rollback_successes,rules_active_after_cap,tokens_per_incident,api_cost,cpu_ram
+"testbed-synthetic scenarios, LLM-backed agent (hf:mistralai/Mistral-Nemo-Instruct-2407, prompt=policy_defended)",B0_rules,2.9299999999999997,8.1665,3.8877941176470587,0.0,0.0,20.575499999999998,30,30,0,not measured,not measured,not measured
+"testbed-synthetic scenarios, LLM-backed agent (hf:mistralai/Mistral-Nemo-Instruct-2407, prompt=policy_defended)",B1_unguarded,4195758.385,4831536.391,4215303.287058824,1.0,0.0,20.575499999999998,13,13,0,not measured,not measured,not measured
+"testbed-synthetic scenarios, LLM-backed agent (hf:mistralai/Mistral-Nemo-Instruct-2407, prompt=policy_defended)",B2_guarded,1749.59,2366.464,1829.6339705882351,1.0,0.0,20.575499999999998,10,10,0,not measured,not measured,not measured

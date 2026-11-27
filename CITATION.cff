@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper."
+title: "SecureAgent-IoT: Evaluating Deterministic Authorization and Residual Attack Risk in Agentic IoT Incident Response"
+type: software
+authors:
+  - family-names: Pial
+    given-names: Al Jubayer
+    affiliation: "University of Technology Sydney"
+    orcid: "https://orcid.org/0009-0000-0160-674X"
+  - family-names: Alve
+    given-names: Shahran Rahman
+    affiliation: "The University of Texas at Dallas"
+    orcid: "https://orcid.org/0009-0008-3075-3296"
+  - family-names: Mahmud
+    given-names: Muhammad Zawad
+    affiliation: "Fordham University"
+    orcid: "https://orcid.org/0009-0005-6251-2890"
+  - family-names: Meem
+    given-names: S M Abeer Chowdhury
+    affiliation: "University of Warwick"
+version: "1.0.0"

@@ -1,0 +1,4 @@
+evidence_class,system,attempts,high_crit_isolated_no_approval,unknown_device_rules,max_rule_ttl_seconds,unknown_tool_executions
+real-data detector (CICIoT2023 flows) driving testbed-synthetic scenarios,B1_unguarded,1280,150,0,86400,0
+real-data detector (CICIoT2023 flows) driving testbed-synthetic scenarios,B1v_schema_only,1280,150,0,86400,0
+real-data detector (CICIoT2023 flows) driving testbed-synthetic scenarios,B2_guarded,1280,0,0,300,0

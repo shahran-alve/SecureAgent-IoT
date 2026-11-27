@@ -1,0 +1,4 @@
+evidence_class,system,ordering,n_escalations,malicious_share,auc_mean,auc_seed_sd,recall_at_25pct,recall_at_50pct,recall_at_75pct
+"testbed-synthetic scenarios, LLM-backed agent (hf:mistralai/Mistral-Nemo-Instruct-2407, prompt=base)",B2_guarded,risk_score,67,0.6417910447761194,0.7625968992248062,,0.27906976744186046,0.627906976744186,0.9302325581395349
+"testbed-synthetic scenarios, LLM-backed agent (hf:mistralai/Mistral-Nemo-Instruct-2407, prompt=base)",B2_guarded,p_attack,67,0.6417910447761194,0.9210271317829457,,0.37209302325581395,0.7209302325581395,0.9767441860465116
+"testbed-synthetic scenarios, LLM-backed agent (hf:mistralai/Mistral-Nemo-Instruct-2407, prompt=base)",B2_guarded,random,67,0.6417910447761194,0.6191860465116279,,0.3023255813953488,0.5813953488372093,0.7674418604651163

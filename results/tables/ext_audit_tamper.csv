@@ -1,0 +1,6 @@
+evidence_class,tampering,trials,detected_chain_only,detected_with_anchored_head
+measured (deterministic check),edit one record,300,1.0,1.0
+measured (deterministic check),delete one record,300,1.0,1.0
+measured (deterministic check),swap two records,300,1.0,1.0
+measured (deterministic check),truncate the tail,300,0.0,1.0
+measured (deterministic check),edit and rebuild all hashes,300,0.0,1.0

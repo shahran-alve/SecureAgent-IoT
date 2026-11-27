@@ -1,0 +1,4 @@
+evidence_class,action_type,distinct_authorized_actions,scenario_seed_pairs,on_incident_device_only,max_duration_seconds,on_benign_incident,spec_violations
+testbed-synthetic,notify,208,208,True,0,110,0
+testbed-synthetic,request_review,340,340,True,0,125,0
+testbed-synthetic,restrict_egress,224,112,True,300,30,0

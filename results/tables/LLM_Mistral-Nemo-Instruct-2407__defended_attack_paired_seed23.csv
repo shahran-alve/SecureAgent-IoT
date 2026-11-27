@@ -1,0 +1,2 @@
+evidence_class,a,b,metric,mean_a,mean_b,diff_a_minus_b,ci95_lo,ci95_hi,n_clusters,mcnemar_a_only,mcnemar_b_only,mcnemar_exact_p
+"testbed-synthetic scenarios, LLM-backed agent (hf:mistralai/Mistral-Nemo-Instruct-2407, prompt=defended)",B2_guarded,B1_unguarded,exec_asr,0.0,0.31919642857142855,-0.31919642857142855,-0.375,-0.26559709821428584,224,0,64,1.0842021724855044e-19

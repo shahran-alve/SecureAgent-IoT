@@ -1,0 +1,8 @@
+comparison,cluster,estimate_pp,ci_lo,ci_hi,p,clusters,attempts,evidence_class
+"prohibited execution, B2 - B1 (scripted, c = 1)","(variant, template)",-66.96428571428571,-73.03794642857142,-60.80357142857142,9.999000099990002e-05,224,,testbed-synthetic; template-clustered reanalysis
+"prohibited execution, B2 - B1 (scripted, c = 1)",template,-66.96428571428571,-73.26732673267327,-61.20676705638597,9.999000099990002e-05,68,,testbed-synthetic; template-clustered reanalysis
+"harmful permitted rate, B2 (scripted, c = 1)","(variant, template)",1.7857142857142858,0.4464285714285714,3.482142857142857,,224,,testbed-synthetic; template-clustered reanalysis
+"harmful permitted rate, B2 (scripted, c = 1)",template,1.7857142857142858,0.0,4.343891402714932,,68,,testbed-synthetic; template-clustered reanalysis
+"holdout harmful permitted rate, look-alike attempts",template,39.04761904761905,29.565217391304348,51.24999999999999,,15,210.0,testbed-synthetic; template-clustered reanalysis
+"holdout harmful permitted rate, other attempts",template,0.03177124702144559,0.0,0.09828211221653842,,385,6295.0,testbed-synthetic; template-clustered reanalysis
+"holdout harmful permitted rate, all attempts",template,1.2913143735588009,0.6784757523881708,2.0458375909118227,,400,6505.0,testbed-synthetic; template-clustered reanalysis

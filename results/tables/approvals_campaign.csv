@@ -1,0 +1,13 @@
+evidence_class,setting,p_approve_malicious,p_approve_benign,strategy,legitimate,autonomous_device_hours,approved_device_hours,total_device_hours,reviews,autonomous_bound_device_hours,seeds
+testbed-synthetic (E30-E32),no approvals (paper's setting),0.0,0.0,"spread injection, four look-alikes, every 5 min",False,3.4166666666666665,0.0,3.4166666666666665,55.0,4.0,5
+testbed-synthetic (E30-E32),no approvals (paper's setting),0.0,0.0,"genuine botnet, four devices, every 5 min (legitimate)",True,3.6666666666666665,0.0,3.6666666666666665,52.0,4.0,5
+testbed-synthetic (E30-E32),careful analyst,0.9,0.0,"spread injection, four look-alikes, every 5 min",False,3.4166666666666665,0.0,3.4166666666666665,55.0,4.0,5
+testbed-synthetic (E30-E32),careful analyst,0.9,0.0,"genuine botnet, four devices, every 5 min (legitimate)",True,0.5333333333333333,5.433333333333334,5.966666666666667,24.4,4.0,5
+testbed-synthetic (E30-E32),analyst error 5%,0.9,0.05,"spread injection, four look-alikes, every 5 min",False,3.316666666666667,0.13333333333333333,3.45,54.6,4.0,5
+testbed-synthetic (E30-E32),analyst error 5%,0.9,0.05,"genuine botnet, four devices, every 5 min (legitimate)",True,0.5333333333333333,5.433333333333334,5.966666666666667,24.4,4.0,5
+testbed-synthetic (E30-E32),analyst error 10%,0.9,0.1,"spread injection, four look-alikes, every 5 min",False,3.2333333333333334,0.21666666666666667,3.45,54.6,4.0,5
+testbed-synthetic (E30-E32),analyst error 10%,0.9,0.1,"genuine botnet, four devices, every 5 min (legitimate)",True,0.5333333333333333,5.433333333333334,5.966666666666667,24.4,4.0,5
+testbed-synthetic (E30-E32),analyst error 20%,0.9,0.2,"spread injection, four look-alikes, every 5 min",False,3.15,0.38333333333333336,3.533333333333333,53.6,4.0,5
+testbed-synthetic (E30-E32),analyst error 20%,0.9,0.2,"genuine botnet, four devices, every 5 min (legitimate)",True,0.5333333333333333,5.433333333333334,5.966666666666667,24.4,4.0,5
+testbed-synthetic (E30-E32),rubber stamp,1.0,1.0,"spread injection, four look-alikes, every 5 min",False,0.9,4.033333333333333,4.933333333333334,36.8,4.0,5
+testbed-synthetic (E30-E32),rubber stamp,1.0,1.0,"genuine botnet, four devices, every 5 min (legitimate)",True,0.5,6.033333333333333,6.533333333333333,17.6,4.0,5

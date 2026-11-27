@@ -1,0 +1,9 @@
+evidence_class,system,proposals,schema_valid,authorized,authorized_violating,authorized_violating_extended,benign_isolation_authorized
+testbed-synthetic,B2_guarded,2798880,693600,1868,0,0,30
+testbed-synthetic,B2_no_provenance,2798880,693600,71808,15016,69940,1560
+testbed-synthetic,B2_no_criticality,2798880,693600,1908,40,40,30
+testbed-synthetic,B2_no_ttl_cap,2798880,693600,2092,224,224,60
+testbed-synthetic,B2_no_floor,2798880,693600,2264,0,0,30
+testbed-synthetic,B2_no_budget,2798880,693600,1868,0,0,30
+testbed-synthetic,B2_no_ttl_no_budget,2798880,693600,2204,336,336,75
+testbed-synthetic,B1_unguarded,2798880,0,1456560,1117088,1452032,297500

@@ -1,0 +1,2 @@
+evidence_class,train_rows,test_rows,exact_cross_split_duplicates,near_duplicates_3_decimals,near_duplicates_1_decimal,split_method,exact_duplicates_removed_before_split,identical_rows_removed_from_test
+real-data,241532,188127,0,308,4742,official file split (training file / test file),1738,1302

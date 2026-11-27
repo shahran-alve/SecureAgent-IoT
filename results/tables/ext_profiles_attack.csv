@@ -1,0 +1,9 @@
+evidence_class,profile,system,attempts,proposal_asr,exec_successes,exec_asr,exec_asr_ci95_lo,exec_asr_ci95_hi,any_violation,suppression_rate
+testbed-synthetic,greedy,B1_unguarded,1120,1.0,750,0.6696428571428571,0.6107142857142858,0.7321428571428571,750,1.0
+testbed-synthetic,greedy,B2_guarded,1120,1.0,0,0.0,0.0,0.0,0,0.39375
+testbed-synthetic,cautious,B1_unguarded,1120,1.0,750,0.6696428571428571,0.6053571428571429,0.7321651785714284,750,1.0
+testbed-synthetic,cautious,B2_guarded,1120,1.0,0,0.0,0.0,0.0,0,0.39375
+testbed-synthetic,timid,B1_unguarded,1120,1.0,750,0.6696428571428571,0.6080357142857142,0.7294642857142856,750,1.0
+testbed-synthetic,timid,B2_guarded,1120,1.0,0,0.0,0.0,0.0,0,0.39375
+testbed-synthetic,erratic,B1_unguarded,1120,0.9714285714285714,718,0.6410714285714286,0.5821428571428572,0.7026785714285714,750,1.0
+testbed-synthetic,erratic,B2_guarded,1120,0.9714285714285714,0,0.0,0.0,0.0,0,0.2625

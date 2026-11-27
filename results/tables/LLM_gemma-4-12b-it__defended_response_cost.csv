@@ -1,0 +1,4 @@
+evidence_class,system,decision_latency_us_median,decision_latency_us_p95,decision_latency_us_mean,agent_calls_mean,retry_rate,action_latency_ms_sim_median,rollback_attempts,rollback_successes,rules_active_after_cap,tokens_per_incident,api_cost,cpu_ram
+"testbed-synthetic scenarios, LLM-backed agent (hf:google/gemma-4-12b-it, prompt=defended)",B0_rules,2.8600000000000003,7.962000000000003,3.6129411764705877,0.0,0.0,19.823999999999998,136,136,0,not measured,not measured,not measured
+"testbed-synthetic scenarios, LLM-backed agent (hf:google/gemma-4-12b-it, prompt=defended)",B1_unguarded,8885202.46,10935371.723,8844744.150088234,1.0,0.0,19.823999999999998,150,150,150,not measured,not measured,not measured
+"testbed-synthetic scenarios, LLM-backed agent (hf:google/gemma-4-12b-it, prompt=defended)",B2_guarded,2259.99,10905873.48,4358809.548617648,1.4411764705882353,0.4411764705882353,19.823999999999998,87,87,0,not measured,not measured,not measured

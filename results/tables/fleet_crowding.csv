@@ -1,0 +1,4 @@
+evidence_class,defense,botnet_contained_device_hours,exfiltration_contained_device_hours,seeds
+testbed-synthetic (E30-E32),device 900 s/h only,5.15,1.65,5
+testbed-synthetic (E30-E32),device 900 s/h + fleet 1800 s/h,2.816666666666667,1.0833333333333333,5
+testbed-synthetic (E30-E32),device 900 s/h + fleet 1800 s/h with corroboration (k = 2),5.15,0.16666666666666666,5

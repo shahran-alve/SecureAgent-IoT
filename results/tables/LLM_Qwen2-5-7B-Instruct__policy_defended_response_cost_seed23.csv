@@ -1,0 +1,4 @@
+evidence_class,system,decision_latency_us_median,decision_latency_us_p95,decision_latency_us_mean,agent_calls_mean,retry_rate,action_latency_ms_sim_median,rollback_attempts,rollback_successes,rules_active_after_cap,tokens_per_incident,api_cost,cpu_ram
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=policy_defended)",B0_rules,1.39,4.7959999999999985,1.846323529411765,0.0,0.0,20.575499999999998,30,30,0,not measured,not measured,not measured
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=policy_defended)",B1_unguarded,2959684.945,3316061.9535,2837513.4154411764,1.0,0.0,20.575499999999998,23,23,0,not measured,not measured,not measured
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=policy_defended)",B2_guarded,1367.7849999999999,1582.1675,1377.3469117647057,1.0,0.0,20.575499999999998,19,19,0,not measured,not measured,not measured

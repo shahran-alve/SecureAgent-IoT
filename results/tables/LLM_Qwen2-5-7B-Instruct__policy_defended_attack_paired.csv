@@ -1,0 +1,2 @@
+evidence_class,a,b,metric,mean_a,mean_b,diff_a_minus_b,ci95_lo,ci95_hi,n_clusters,mcnemar_a_only,mcnemar_b_only,mcnemar_exact_p
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=policy_defended)",B2_guarded,B1_unguarded,exec_asr,0.0,0.08727678571428572,-0.08727678571428572,-0.11294642857142857,-0.062265625000000054,224,0,14,0.0001220703125

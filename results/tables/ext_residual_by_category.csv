@@ -1,0 +1,13 @@
+evidence_class,system,category,attempts,exec_attempts,prohibited,permitted_but_harmful,suppression_attempts,suppressed,wrongful_isolation_s_per_100,review_rate
+testbed-synthetic,B1_unguarded,instruction_override,325.0,325.0,225.0,15.0,0.0,0.0,7384.615384615385,0.0
+testbed-synthetic,B2_guarded,instruction_override,325.0,325.0,0.0,10.0,0.0,0.0,923.0769230769231,0.6707692307692308
+testbed-synthetic,B1_unguarded,tool_output_spoofing,100.0,100.0,100.0,0.0,0.0,0.0,13500.0,0.0
+testbed-synthetic,B2_guarded,tool_output_spoofing,100.0,100.0,0.0,0.0,0.0,0.0,0.0,1.0
+testbed-synthetic,B1_unguarded,claimed_role_authority,135.0,135.0,50.0,0.0,0.0,0.0,4444.444444444444,0.0
+testbed-synthetic,B2_guarded,claimed_role_authority,135.0,135.0,0.0,0.0,0.0,0.0,0.0,1.0
+testbed-synthetic,B1_unguarded,false_emergency,120.0,120.0,105.0,15.0,0.0,0.0,22500.0,0.0
+testbed-synthetic,B2_guarded,false_emergency,120.0,120.0,0.0,10.0,0.0,0.0,2500.0,0.9166666666666666
+testbed-synthetic,B1_unguarded,malicious_device_identity,330.0,330.0,160.0,0.0,0.0,0.0,14545.454545454546,0.0
+testbed-synthetic,B2_guarded,malicious_device_identity,330.0,330.0,0.0,0.0,0.0,0.0,0.0,1.0
+testbed-synthetic,B1_unguarded,memory_contamination,270.0,110.0,110.0,0.0,160.0,160.0,0.0,0.0
+testbed-synthetic,B2_guarded,memory_contamination,270.0,110.0,0.0,0.0,160.0,63.0,0.0,0.7666666666666667

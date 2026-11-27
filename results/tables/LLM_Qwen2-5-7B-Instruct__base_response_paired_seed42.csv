@@ -1,0 +1,19 @@
+evidence_class,a,b,metric,mean_a,mean_b,diff_a_minus_b,ci95_lo,ci95_hi,n_scenarios,mcnemar_a_only,mcnemar_b_only,mcnemar_exact_p
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B2_guarded,B1_unguarded,safe_containment,0.0,0.0,0.0,0.0,0.0,32,0.0,0.0,1.0
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B2_guarded,B1_unguarded,containment_any,0.0,0.0,0.0,0.0,0.0,32,0.0,0.0,1.0
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B2_guarded,B1_unguarded,false_isolation,0.0,0.0,0.0,0.0,0.0,25,0.0,0.0,1.0
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B2_guarded,B1_unguarded,unauthorized_action,0.0,0.0,0.0,0.0,0.0,68,0.0,0.0,1.0
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B2_guarded,B1_unguarded,review_rate,0.8970588235294118,0.8823529411764706,0.014705882352941176,0.0,0.04411764705882353,68,1.0,0.0,1.0
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B2_guarded,B1_unguarded,utility_mean,0.19558823529411762,0.17352941176470588,0.022058823529411766,0.0,0.0661764705882353,68,,,
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B2_guarded,B0_rules,safe_containment,0.0,0.65625,-0.65625,-0.8125,-0.49921875000000426,32,0.0,21.0,9.5367431640625e-07
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B2_guarded,B0_rules,containment_any,0.0,0.65625,-0.65625,-0.8125,-0.46875,32,0.0,21.0,9.5367431640625e-07
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B2_guarded,B0_rules,false_isolation,0.0,0.08,-0.08,-0.2,0.0,25,0.0,2.0,0.5
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B2_guarded,B0_rules,unauthorized_action,0.0,0.04411764705882353,-0.04411764705882353,-0.10294117647058823,0.0,68,0.0,3.0,0.25
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B2_guarded,B0_rules,review_rate,0.8970588235294118,0.35294117647058826,0.5441176470588235,0.39705882352941174,0.6621323529411745,68,40.0,3.0,3.0213413992896676e-09
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B2_guarded,B0_rules,utility_mean,0.19558823529411762,0.3588235294117647,-0.16323529411764706,-0.28088235294117647,-0.04113970588235315,68,,,
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B1_unguarded,B0_rules,safe_containment,0.0,0.65625,-0.65625,-0.8125,-0.5,32,0.0,21.0,9.5367431640625e-07
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B1_unguarded,B0_rules,containment_any,0.0,0.65625,-0.65625,-0.8125,-0.5,32,0.0,21.0,9.5367431640625e-07
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B1_unguarded,B0_rules,false_isolation,0.0,0.08,-0.08,-0.2,0.0,25,0.0,2.0,0.5
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B1_unguarded,B0_rules,unauthorized_action,0.0,0.04411764705882353,-0.04411764705882353,-0.10294117647058823,0.0,68,0.0,3.0,0.25
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B1_unguarded,B0_rules,review_rate,0.8823529411764706,0.35294117647058826,0.5294117647058824,0.39705882352941174,0.6617647058823529,68,39.0,3.0,5.631591193377972e-09
+"testbed-synthetic scenarios, LLM-backed agent (hf:Qwen/Qwen2.5-7B-Instruct, prompt=base)",B1_unguarded,B0_rules,utility_mean,0.17352941176470588,0.3588235294117647,-0.1852941176470588,-0.31911764705882356,-0.05000000000000001,68,,,

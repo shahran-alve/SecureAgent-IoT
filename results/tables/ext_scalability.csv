@@ -1,0 +1,11 @@
+evidence_class,component,size,unit,operations,seconds,ops_per_second,microseconds_per_op
+measured (orchestration only),validate+authorize,100,registered devices,20000,0.15809168599980694,126508.86650689793,7.904584299990347
+measured (orchestration only),validate+authorize,1000,registered devices,20000,0.1677313300001515,119238.30807268943,8.386566500007575
+measured (orchestration only),validate+authorize,10000,registered devices,20000,0.20110714700012977,99449.47406561884,10.055357350006489
+measured (orchestration only),validate+authorize,100000,registered devices,20000,0.19951752700035286,100241.81985758389,9.975876350017643
+measured (orchestration only),audit append,1000,records,1000,0.009396808000019519,106419.11593787197,9.396808000019519
+measured (orchestration only),audit verify,1000,records,1000,0.005448062000141363,183551.5087702843,5.448062000141363
+measured (orchestration only),audit append,10000,records,10000,0.09474885800000266,105542.16917316006,9.474885800000266
+measured (orchestration only),audit verify,10000,records,10000,0.05515441700026713,181309.14156796483,5.515441700026713
+measured (orchestration only),audit append,100000,records,100000,1.4047751510001945,71185.7694299336,14.047751510001945
+measured (orchestration only),audit verify,100000,records,100000,0.4897329870000249,204192.9023661927,4.897329870000249

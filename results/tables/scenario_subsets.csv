@@ -1,0 +1,4 @@
+evidence_class,subset,templates,exec_attempts,permitted_harmful,permitted_harmful_rate,wrongful_s_per_100_attacked,wrongful_s_per_100_control,suppression,review_rate_attacked,clean_false_isolation,clean_safe_containment
+testbed-synthetic (E40-E47),all 68 templates,68,1120,20,0.017857142857142856,535.7142857142857,53.57142857142857,63/160,0.8955357142857143,0.008,0.55625
+testbed-synthetic (E40-E47),original 64 templates,64,1060,0,0.0,0.0,0.0,63/160,0.9084905660377358,0.0,0.55625
+testbed-synthetic (E40-E47),4 look-alike templates added after the pilot,4,60,20,0.3333333333333333,10000.0,1000.0,0/0,0.6666666666666666,0.05,

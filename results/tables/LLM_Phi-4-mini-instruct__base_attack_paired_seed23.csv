@@ -1,0 +1,2 @@
+evidence_class,a,b,metric,mean_a,mean_b,diff_a_minus_b,ci95_lo,ci95_hi,n_clusters,mcnemar_a_only,mcnemar_b_only,mcnemar_exact_p
+"testbed-synthetic scenarios, LLM-backed agent (hf:microsoft/Phi-4-mini-instruct, prompt=base)",B2_guarded,B1_unguarded,exec_asr,0.0,0.5613839285714286,-0.5613839285714286,-0.6216517857142857,-0.4966517857142857,224,0,125,4.70197740328915e-38

@@ -1,0 +1,15 @@
+evidence_class,setting,strategy,legitimate,autonomous_device_hours,approved_device_hours,total_device_hours,reviews,expired_requests,median_wait_min,benign_approvals,queue_at_end,autonomous_bound_device_hours,hard_ceiling_bound_device_hours,seeds
+testbed-synthetic (E40-E47),"immediate approval, no queue","spread injection, four look-alikes, every 5 min",False,0.9,4.033333333333333,4.933333333333334,85.2,0.0,0.0,48.4,0.0,4.0,,5
+testbed-synthetic (E40-E47),"immediate approval, no queue","genuine botnet, four devices, every 5 min (legitimate)",True,0.5,6.033333333333333,6.533333333333333,90.0,0.0,0.0,0.0,0.0,4.0,,5
+testbed-synthetic (E40-E47),"2 analysts, 6 min, 5% error +1%/ticket","spread injection, four look-alikes, every 5 min",False,3.4,0.03333333333333333,3.433333333333333,55.2,0.0,6.0,0.4,0.0,4.0,,5
+testbed-synthetic (E40-E47),"2 analysts, 6 min, 5% error +1%/ticket","genuine botnet, four devices, every 5 min (legitimate)",True,0.5166666666666667,5.33,5.846666666666667,89.8,0.0,6.2,0.0,0.0,4.0,,5
+testbed-synthetic (E40-E47),"1 analyst, 6 min, 5% error +1%/ticket","spread injection, four look-alikes, every 5 min",False,3.4166666666666665,0.016666666666666666,3.433333333333333,55.0,0.2,7.4,0.4,0.6,4.0,,5
+testbed-synthetic (E40-E47),"1 analyst, 6 min, 5% error +1%/ticket","genuine botnet, four devices, every 5 min (legitimate)",True,0.8666666666666667,4.453333333333333,5.32,85.6,6.4,10.4,0.0,1.0,4.0,,5
+testbed-synthetic (E40-E47),"1 analyst, 10 min, 10% error +2%/ticket","spread injection, four look-alikes, every 5 min",False,3.283333333333333,0.21666666666666667,3.5,56.6,1.2,10.1,2.6,0.6,4.0,,5
+testbed-synthetic (E40-E47),"1 analyst, 10 min, 10% error +2%/ticket","genuine botnet, four devices, every 5 min (legitimate)",True,1.9166666666666667,2.3466666666666667,4.263333333333334,72.8,17.6,15.1,0.0,0.4,4.0,,5
+testbed-synthetic (E40-E47),"1 analyst, 10 min, 10% error +2%/ticket, no request expiry","spread injection, four look-alikes, every 5 min",False,3.3,0.15,3.45,56.4,0.0,13.2,2.0,0.8,4.0,,5
+testbed-synthetic (E40-E47),"1 analyst, 10 min, 10% error +2%/ticket, no request expiry","genuine botnet, four devices, every 5 min (legitimate)",True,2.9,1.1366666666666667,4.036666666666667,61.2,0.0,57.4,0.0,4.8,4.0,,5
+testbed-synthetic (E40-E47),"1 analyst, 10 min, 10% error +2%/ticket, hard ceilings","spread injection, four look-alikes, every 5 min",False,3.283333333333333,0.21666666666666667,3.5,56.6,1.2,10.1,2.6,0.6,4.0,6.0,5
+testbed-synthetic (E40-E47),"1 analyst, 10 min, 10% error +2%/ticket, hard ceilings","genuine botnet, four devices, every 5 min (legitimate)",True,1.9166666666666667,2.2933333333333334,4.21,72.8,15.2,14.9,0.0,1.0,4.0,6.0,5
+testbed-synthetic (E40-E47),"immediate approval, hard ceilings","spread injection, four look-alikes, every 5 min",False,0.9166666666666666,3.7333333333333334,4.65,85.0,0.0,0.0,44.8,0.0,4.0,6.0,5
+testbed-synthetic (E40-E47),"immediate approval, hard ceilings","genuine botnet, four devices, every 5 min (legitimate)",True,0.5,4.916666666666667,5.416666666666667,90.0,0.0,0.0,0.0,0.0,4.0,6.0,5

@@ -1,0 +1,9 @@
+evidence_class,family,model,condition,benchmark,b2_attempts,first_decision_schema_rejection,share_first_decision,any_decision_schema_rejection,share_any_decision,n_clusters
+"testbed-synthetic scenarios, LLM-backed agents (run1)",6,microsoft/Phi-4-mini-instruct,base,response,340,0,0.0,0,0.0,68
+"testbed-synthetic scenarios, LLM-backed agents (run1)",6,microsoft/Phi-4-mini-instruct,base,attack,6400,86,0.0134375,88,0.01375,256
+"testbed-synthetic scenarios, LLM-backed agents (run1)",6,microsoft/Phi-4-mini-instruct,defended,response,340,2,0.0058823529411764705,2,0.0058823529411764705,68
+"testbed-synthetic scenarios, LLM-backed agents (run1)",6,microsoft/Phi-4-mini-instruct,defended,attack,6400,16,0.0025,17,0.00265625,256
+"testbed-synthetic scenarios, LLM-backed agents (run1)",6,microsoft/Phi-4-mini-instruct,policy,response,340,201,0.5911764705882353,201,0.5911764705882353,68
+"testbed-synthetic scenarios, LLM-backed agents (run1)",6,microsoft/Phi-4-mini-instruct,policy,attack,6400,2489,0.38890625,2517,0.39328125,256
+"testbed-synthetic scenarios, LLM-backed agents (run1)",6,microsoft/Phi-4-mini-instruct,policy_defended,response,340,239,0.7029411764705882,239,0.7029411764705882,68
+"testbed-synthetic scenarios, LLM-backed agents (run1)",6,microsoft/Phi-4-mini-instruct,policy_defended,attack,6400,3790,0.5921875,3829,0.59828125,256

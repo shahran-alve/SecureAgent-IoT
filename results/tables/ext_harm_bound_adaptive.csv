@@ -1,0 +1,16 @@
+evidence_class,defense,strategy,devices,measured_device_hours,bound_device_hours,share_of_bound
+testbed-synthetic,"B2, device budget 900 s/h","one device, every 12 min (naive)",1,1.4833333333333334,2.0,0.7416666666666667
+testbed-synthetic,"B2, device budget 900 s/h","one device, every 20 min (budget-aware)",1,1.1,2.0,0.55
+testbed-synthetic,"B2, device budget 900 s/h","four devices in rotation, every 12 min (spread)",4,2.1,8.0,0.2625
+testbed-synthetic,"B2, device budget 900 s/h","four devices in rotation, every 5 min (spread, fast)",4,4.4,8.0,0.55
+testbed-synthetic,"B2, device budget 900 s/h","four devices in rotation, every 5 min, during a benign fleet-wide event (shared indicator)",4,4.4,8.0,0.55
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h","one device, every 12 min (naive)",1,1.4833333333333334,2.0,0.7416666666666667
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h","one device, every 20 min (budget-aware)",1,1.1,2.0,0.55
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h","four devices in rotation, every 12 min (spread)",4,2.1,4.0,0.525
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h","four devices in rotation, every 5 min (spread, fast)",4,3.4166666666666665,4.0,0.8541666666666666
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h","four devices in rotation, every 5 min, during a benign fleet-wide event (shared indicator)",4,3.4166666666666665,4.0,0.8541666666666666
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h with corroboration","one device, every 12 min (naive)",1,1.4833333333333334,2.0,0.7416666666666667
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h with corroboration","one device, every 20 min (budget-aware)",1,1.1,2.0,0.55
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h with corroboration","four devices in rotation, every 12 min (spread)",4,2.1,4.0,0.525
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h with corroboration","four devices in rotation, every 5 min (spread, fast)",4,3.4166666666666665,4.0,0.8541666666666666
+testbed-synthetic,"B2, device 900 s/h + fleet 1800 s/h with corroboration","four devices in rotation, every 5 min, during a benign fleet-wide event (shared indicator)",4,4.4,8.0,0.55

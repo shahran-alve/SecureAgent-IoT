@@ -1,0 +1,10 @@
+evidence_class,system,attempts,high_crit_isolated_no_approval,unknown_device_rules,max_rule_ttl_seconds,unknown_tool_executions
+testbed-synthetic,B1_unguarded,1280,150,0,86400,0
+testbed-synthetic,B1v_schema_only,1280,150,0,86400,0
+testbed-synthetic,B2_guarded,1280,0,0,300,0
+testbed-synthetic,B2_no_provenance,1280,0,0,300,0
+testbed-synthetic,B2_no_criticality,1280,54,0,300,0
+testbed-synthetic,B2_no_ttl_cap,1280,0,0,300,0
+testbed-synthetic,B2_no_floor,1280,0,0,300,0
+testbed-synthetic,B2_no_budget,1280,0,0,300,0
+testbed-synthetic,B2_no_ttl_no_budget,1280,0,0,86400,0

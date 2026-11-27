@@ -1,0 +1,12 @@
+evidence_class,system,decision_latency_us_median,decision_latency_us_p95,decision_latency_us_mean,agent_calls_mean,retry_rate,action_latency_ms_sim_median,rollback_attempts,rollback_successes,rules_active_after_cap,tokens_per_incident,api_cost,cpu_ram
+testbed-synthetic,B0_rules,0.685,1.07,0.7335588235294117,0.0,0.0,19.823999999999998,136,136,0,not measured,not measured,not measured
+testbed-synthetic,B1_unguarded,24.064999999999998,48.22800000000001,28.19282352941177,2.0,0.0,19.823999999999998,132,132,68,not measured,not measured,not measured
+testbed-synthetic,B1v_schema_only,27.869999999999997,53.99450000000001,31.563235294117646,2.0,0.0,19.823999999999998,132,132,68,not measured,not measured,not measured
+testbed-synthetic,B2_guarded,82.72,165.04000000000005,98.4214411764706,2.2,0.2,19.823999999999998,90,90,0,not measured,not measured,not measured
+testbed-synthetic,B3_single_guarded,67.11,155.01700000000005,86.78123529411765,1.2352941176470589,0.23529411764705882,19.823999999999998,112,112,0,not measured,not measured,not measured
+testbed-synthetic,B2_no_provenance,74.27,164.47750000000005,91.89699999999999,2.2,0.2,19.823999999999998,96,96,0,not measured,not measured,not measured
+testbed-synthetic,B2_no_criticality,72.22,179.03450000000004,93.93779411764706,2.2,0.2,19.823999999999998,107,107,0,not measured,not measured,not measured
+testbed-synthetic,B2_no_ttl_cap,67.11,140.67950000000002,79.0315,2.0,0.0,19.823999999999998,90,90,58,not measured,not measured,not measured
+testbed-synthetic,B2_no_floor,69.625,172.09250000000003,95.3424705882353,2.2,0.2,19.823999999999998,90,90,0,not measured,not measured,not measured
+testbed-synthetic,B2_no_budget,70.565,171.39350000000005,88.08385294117647,2.2,0.2,19.823999999999998,90,90,0,not measured,not measured,not measured
+testbed-synthetic,B2_no_ttl_no_budget,65.64,137.017,76.21952941176471,2.0,0.0,19.823999999999998,90,90,58,not measured,not measured,not measured

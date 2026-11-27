@@ -1,0 +1,4 @@
+evidence_class,system,decision_latency_us_median,decision_latency_us_p95,decision_latency_us_mean,agent_calls_mean,retry_rate,action_latency_ms_sim_median,rollback_attempts,rollback_successes,rules_active_after_cap,tokens_per_incident,api_cost,cpu_ram
+"testbed-synthetic scenarios, LLM-backed agent (hf:microsoft/Phi-4-mini-instruct, prompt=defended)",B0_rules,2.005,6.185499999999999,2.802794117647059,0.0,0.0,19.1085,26,26,0,not measured,not measured,not measured
+"testbed-synthetic scenarios, LLM-backed agent (hf:microsoft/Phi-4-mini-instruct, prompt=defended)",B1_unguarded,3338182.69,3988993.6315,3361308.2897058823,1.0,0.0,19.1085,67,67,67,not measured,not measured,not measured
+"testbed-synthetic scenarios, LLM-backed agent (hf:microsoft/Phi-4-mini-instruct, prompt=defended)",B2_guarded,3400547.49,4187801.0835,3259150.0719117643,1.9558823529411764,0.9558823529411765,19.1085,23,23,0,not measured,not measured,not measured

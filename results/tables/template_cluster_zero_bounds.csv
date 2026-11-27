@@ -1,0 +1,5 @@
+setting,independent_unit,n,events,upper_95_one_sided
+"scripted catalogue, B2",template,68,0,0.043098564820088336
+"scripted catalogue, B2","(variant, template)",224,0,0.013284772806081091
+"guarded LLM runs, four models",template,68,0,0.043098564820088336
+"generated holdout, B2",template,400,0,0.0074613555287995625

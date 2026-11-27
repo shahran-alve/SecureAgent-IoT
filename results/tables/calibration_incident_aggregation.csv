@@ -1,0 +1,15 @@
+evidence_class,score,flows_per_incident,aggregation,benign_incidents_restrict,benign_incidents_review,attack_incidents_restrict,attack_incidents_review,incidents_per_class
+real-data (CICIoT2023 official files),raw RF score,1,single flow,0.03705,0.10935,0.98765,0.0078,20000
+real-data (CICIoT2023 official files),raw RF score,3,mean,5e-05,0.03775,0.9909,0.0091,20000
+real-data (CICIoT2023 official files),raw RF score,3,max,0.10655,0.26265,1.0,0.0,20000
+real-data (CICIoT2023 official files),raw RF score,5,mean,0.0,0.01135,0.99925,0.00075,20000
+real-data (CICIoT2023 official files),raw RF score,5,max,0.1706,0.3663,1.0,0.0,20000
+real-data (CICIoT2023 official files),raw RF score,10,mean,0.0,0.0006,1.0,0.0,20000
+real-data (CICIoT2023 official files),raw RF score,10,max,0.3118,0.4719,1.0,0.0,20000
+real-data (CICIoT2023 official files),isotonic (fit on validation file),1,single flow,0.0367,0.0588,0.98745,0.0066,20000
+real-data (CICIoT2023 official files),isotonic (fit on validation file),3,mean,0.0003,0.0201,0.987,0.01285,20000
+real-data (CICIoT2023 official files),isotonic (fit on validation file),3,max,0.1008,0.155,1.0,0.0,20000
+real-data (CICIoT2023 official files),isotonic (fit on validation file),5,mean,0.0,0.0045,0.9992,0.0008,20000
+real-data (CICIoT2023 official files),isotonic (fit on validation file),5,max,0.15735,0.2318,1.0,0.0,20000
+real-data (CICIoT2023 official files),isotonic (fit on validation file),10,mean,0.0,5e-05,0.99995,5e-05,20000
+real-data (CICIoT2023 official files),isotonic (fit on validation file),10,max,0.2896,0.3357,1.0,0.0,20000

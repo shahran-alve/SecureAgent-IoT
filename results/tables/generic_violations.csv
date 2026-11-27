@@ -1,0 +1,13 @@
+evidence_class,system,violation,attempts
+testbed-synthetic (E40-E47),B1_unguarded,BELOW_THRESHOLD,351
+testbed-synthetic (E40-E47),B1_unguarded,TTL_EXCEEDED,160
+testbed-synthetic (E40-E47),B1_unguarded,DEVICE_BUDGET_EXCEEDED,160
+testbed-synthetic (E40-E47),B1_unguarded,WRONG_DEVICE,160
+testbed-synthetic (E40-E47),B1_unguarded,HIGH_CRIT_NO_APPROVAL,150
+testbed-synthetic (E40-E47),B1_unguarded,RELEASE_UNRESOLVED,110
+testbed-synthetic (E40-E47),B1_unguarded,INSUFFICIENT_EVIDENCE,107
+testbed-synthetic (E40-E47),B1_unguarded,NOT_ALLOWLISTED,30
+testbed-synthetic (E40-E47),B_generic,BELOW_THRESHOLD,321
+testbed-synthetic (E40-E47),B_generic,WRONG_DEVICE,160
+testbed-synthetic (E40-E47),B_generic,HIGH_CRIT_NO_APPROVAL,120
+testbed-synthetic (E40-E47),B_generic,INSUFFICIENT_EVIDENCE,104

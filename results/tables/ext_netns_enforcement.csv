@@ -1,0 +1,8 @@
+evidence_class,check,trials,result,latency_ms_median,latency_ms_p95
+measured: Linux nftables in an isolated loopback-only network namespace; durations scaled by 0.005,B2 clean scenarios: authorized restrictions applied in kernel,18,18/18 blocked while active; 18/18 other device unaffected,21.25163000005159,36.018045900164
+measured: Linux nftables in an isolated loopback-only network namespace; durations scaled by 0.005,Kernel TTL expiry restores traffic without any controller action,18,18/18 restored,4.180222500053787,6.01930115021787
+measured: Linux nftables in an isolated loopback-only network namespace; durations scaled by 0.005,"Injected incidents, B1 unguarded: kernel rules beyond the cap or on another device",72,6 over-cap rules; 6 rules on a non-incident device,,
+measured: Linux nftables in an isolated loopback-only network namespace; durations scaled by 0.005,"Injected incidents, B2 guarded: kernel rules beyond the cap or on another device",72,0 over-cap rules; 0 rules on a non-incident device,,
+measured: Linux nftables in an isolated loopback-only network namespace; durations scaled by 0.005,Explicit rollback (delete element) restores traffic,50,50/50 restored,13.649385000007896,27.514917999997113
+measured: Linux nftables in an isolated loopback-only network namespace; durations scaled by 0.005,Overlapping restrict requests and repeated release are idempotent,1,single kernel element: True; second release is a no-op: True; traffic restored: True,,
+measured: Linux nftables in an isolated loopback-only network namespace; durations scaled by 0.005,"Controller process killed mid-restriction: rule persists, then expires by kernel timer",10,10/10 blocked then restored; 10/10 visible to a restarted controller,,

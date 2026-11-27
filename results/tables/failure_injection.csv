@@ -1,0 +1,19 @@
+evidence_class,failure,design,trials,max_granted_s_in_one_window,device_budget_s,trials_over_budget,note
+testbed-synthetic (real policy engine; failures injected in software),8 concurrent requests for one device,naive,20,2400.0,900.0,20,check and commit not atomic
+testbed-synthetic (real policy engine; failures injected in software),8 concurrent requests for one device,atomic,20,900.0,900.0,0,evaluate and commit under one lock
+testbed-synthetic (real policy engine; failures injected in software),controller restart within the window,naive,20,1800.0,900.0,20,"history in memory, lost on restart"
+testbed-synthetic (real policy engine; failures injected in software),controller restart within the window,atomic,20,900.0,900.0,0,history reloaded from the hash-chained ledger
+testbed-synthetic (real policy engine; failures injected in software),wall-clock step forward by one window,naive,20,1800.0,900.0,20,budget window on wall-clock time
+testbed-synthetic (real policy engine; failures injected in software),wall-clock step forward by one window,atomic,20,900.0,900.0,0,budget window on monotonic time
+testbed-synthetic (real policy engine; failures injected in software),rule installation fails after the grant,atomic,20,900.0,900.0,0,failed installs still counted; budget only over-counted
+testbed-synthetic (real policy engine; failures injected in software),ledger entry deleted on disk,atomic,20,0.0,900.0,0,chain verification failed in 20/20; authorizer failed closed
+testbed-synthetic (real policy engine; failures injected in software),two authorizer processes on one ledger,per-process lock only,20,1800.0,900.0,20,each process trusts its own in-memory view
+testbed-synthetic (real policy engine; failures injected in software),two authorizer processes on one ledger,atomic,20,900.0,900.0,0,"flock on the ledger, reload before each decision"
+testbed-synthetic (real policy engine; failures injected in software),crash during a ledger append (torn record),atomic,20,0.0,900.0,0,torn record detected in 20/20; authorizer failed closed
+testbed-synthetic (real policy engine; failures injected in software),rule installed 100 s after the grant,relative timer,20,300.0,900.0,0,rule active until s + delta + 100 s
+testbed-synthetic (real policy engine; failures injected in software),rule installed 100 s after the grant,absolute expiry,20,300.0,900.0,0,rule active until s + delta + 0 s
+testbed-synthetic (real policy engine; failures injected in software),valid ledger suffix removed (truncation),chain only,20,1500.0,900.0,20,truncation detected in 0/20; the chain alone cannot detect it
+testbed-synthetic (real policy engine; failures injected in software),valid ledger suffix removed (truncation),chain + head commitment,20,900.0,900.0,0,truncation detected in 20/20; authorizer failed closed
+testbed-synthetic (real policy engine; failures injected in software),"one approval: 8 concurrent requests, then a restart",in-memory consumption,20,1500.0,900.0,20,approved grants per approval: max 2 (single use requires 1)
+testbed-synthetic (real policy engine; failures injected in software),"one approval: 8 concurrent requests, then a restart",atomic,20,1200.0,900.0,0,approved grants per approval: max 1 (single use requires 1)
+testbed-synthetic (real policy engine; failures injected in software),"one release approval: 8 concurrent releases, then a restart",atomic,20,,900.0,0,"releases per approval: max 1, min 1 (single use requires 1)"

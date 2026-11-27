@@ -1,0 +1,11 @@
+evidence_class,defense,compromised_devices,wrongful_device_hours,reviews,fleet_bound_device_hours,device_bound_device_hours,seeds
+testbed-synthetic (E30-E32),device 900 s/h + fleet 1800 s/h,0,3.4166666666666665,55.0,4.0,8.0,5
+testbed-synthetic (E30-E32),device 900 s/h + fleet 1800 s/h,1,3.4166666666666665,55.0,4.0,8.0,5
+testbed-synthetic (E30-E32),device 900 s/h + fleet 1800 s/h,2,3.4166666666666665,55.0,4.0,8.0,5
+testbed-synthetic (E30-E32),device 900 s/h + fleet 1800 s/h,3,3.4166666666666665,55.0,4.0,8.0,5
+testbed-synthetic (E30-E32),device 900 s/h + fleet 1800 s/h,4,3.4166666666666665,55.0,4.0,8.0,5
+testbed-synthetic (E30-E32),device 900 s/h + fleet 1800 s/h with corroboration (k = 2),0,3.4166666666666665,55.0,4.0,8.0,5
+testbed-synthetic (E30-E32),device 900 s/h + fleet 1800 s/h with corroboration (k = 2),1,3.4166666666666665,55.0,4.0,8.0,5
+testbed-synthetic (E30-E32),device 900 s/h + fleet 1800 s/h with corroboration (k = 2),2,4.4,43.2,4.0,8.0,5
+testbed-synthetic (E30-E32),device 900 s/h + fleet 1800 s/h with corroboration (k = 2),3,4.4,43.2,4.0,8.0,5
+testbed-synthetic (E30-E32),device 900 s/h + fleet 1800 s/h with corroboration (k = 2),4,4.4,43.2,4.0,8.0,5

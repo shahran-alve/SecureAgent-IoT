@@ -1,0 +1,34 @@
+evidence_class,stress,level,system,harm,harm_rate,spec_violation_rate,n
+testbed-synthetic,detector probability poisoned,0.0,B1_unguarded,benign device isolated,1.0,0.8,150
+testbed-synthetic,detector probability poisoned,0.0,B2_guarded,benign device isolated,0.13333333333333333,0.0,150
+testbed-synthetic,detector probability poisoned,0.1,B1_unguarded,benign device isolated,1.0,0.74,150
+testbed-synthetic,detector probability poisoned,0.1,B2_guarded,benign device isolated,0.13333333333333333,0.0,150
+testbed-synthetic,detector probability poisoned,0.25,B1_unguarded,benign device isolated,1.0,0.64,150
+testbed-synthetic,detector probability poisoned,0.25,B2_guarded,benign device isolated,0.13333333333333333,0.0,150
+testbed-synthetic,detector probability poisoned,0.5,B1_unguarded,benign device isolated,1.0,0.44666666666666666,150
+testbed-synthetic,detector probability poisoned,0.5,B2_guarded,benign device isolated,0.16666666666666666,0.0,150
+testbed-synthetic,detector probability poisoned,1.0,B1_unguarded,benign device isolated,1.0,0.14,150
+testbed-synthetic,detector probability poisoned,1.0,B2_guarded,benign device isolated,0.2,0.0,150
+testbed-synthetic,critical devices mislabelled as low,0.0,B1_unguarded,truly critical device isolated,1.0,1.0,150
+testbed-synthetic,critical devices mislabelled as low,0.0,B2_guarded,truly critical device isolated,0.0,0.0,150
+testbed-synthetic,critical devices mislabelled as low,0.3333333333333333,B1_unguarded,truly critical device isolated,1.0,0.74,150
+testbed-synthetic,critical devices mislabelled as low,0.3333333333333333,B2_guarded,truly critical device isolated,0.26,0.0,150
+testbed-synthetic,critical devices mislabelled as low,0.6666666666666666,B1_unguarded,truly critical device isolated,1.0,0.66,150
+testbed-synthetic,critical devices mislabelled as low,0.6666666666666666,B2_guarded,truly critical device isolated,0.32,0.0,150
+testbed-synthetic,critical devices mislabelled as low,1.0,B1_unguarded,truly critical device isolated,1.0,0.6,150
+testbed-synthetic,critical devices mislabelled as low,1.0,B2_guarded,truly critical device isolated,0.36,0.0,150
+testbed-synthetic,detector false negatives forced,0.0,B0_rules,malicious incident neither contained nor escalated,0.04186046511627907,0.07058823529411765,215
+testbed-synthetic,detector false negatives forced,0.0,B1_unguarded,malicious incident neither contained nor escalated,0.0,0.29411764705882354,215
+testbed-synthetic,detector false negatives forced,0.0,B2_guarded,malicious incident neither contained nor escalated,0.0,0.0,215
+testbed-synthetic,detector false negatives forced,0.1,B0_rules,malicious incident neither contained nor escalated,0.12558139534883722,0.06764705882352941,215
+testbed-synthetic,detector false negatives forced,0.1,B1_unguarded,malicious incident neither contained nor escalated,0.06976744186046512,0.27058823529411763,215
+testbed-synthetic,detector false negatives forced,0.1,B2_guarded,malicious incident neither contained nor escalated,0.06976744186046512,0.0,215
+testbed-synthetic,detector false negatives forced,0.25,B0_rules,malicious incident neither contained nor escalated,0.24651162790697675,0.05,215
+testbed-synthetic,detector false negatives forced,0.25,B1_unguarded,malicious incident neither contained nor escalated,0.17674418604651163,0.22647058823529412,215
+testbed-synthetic,detector false negatives forced,0.25,B2_guarded,malicious incident neither contained nor escalated,0.17674418604651163,0.0,215
+testbed-synthetic,detector false negatives forced,0.5,B0_rules,malicious incident neither contained nor escalated,0.4604651162790698,0.041176470588235294,215
+testbed-synthetic,detector false negatives forced,0.5,B1_unguarded,malicious incident neither contained nor escalated,0.3767441860465116,0.17058823529411765,215
+testbed-synthetic,detector false negatives forced,0.5,B2_guarded,malicious incident neither contained nor escalated,0.3767441860465116,0.0,215
+testbed-synthetic,detector false negatives forced,1.0,B0_rules,malicious incident neither contained nor escalated,1.0,0.0,215
+testbed-synthetic,detector false negatives forced,1.0,B1_unguarded,malicious incident neither contained nor escalated,0.9069767441860465,0.0,215
+testbed-synthetic,detector false negatives forced,1.0,B2_guarded,malicious incident neither contained nor escalated,0.9069767441860465,0.0,215

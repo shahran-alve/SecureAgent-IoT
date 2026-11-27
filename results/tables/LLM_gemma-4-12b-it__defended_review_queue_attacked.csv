@@ -1,0 +1,4 @@
+evidence_class,system,ordering,n_escalations,malicious_share,auc_mean,auc_seed_sd,recall_at_25pct,recall_at_50pct,recall_at_75pct
+"testbed-synthetic scenarios, LLM-backed agent (hf:google/gemma-4-12b-it, prompt=defended)",B2_guarded,risk_score,3385,0.6632200886262924,0.8088986656325856,0.009736245417548979,0.31069246377313553,0.6335980183721507,0.9389036304800443
+"testbed-synthetic scenarios, LLM-backed agent (hf:google/gemma-4-12b-it, prompt=defended)",B2_guarded,p_attack,3385,0.6632200886262924,0.9034642325864226,0.03286477390072049,0.36106846161538964,0.683669583349154,0.9744949730351872
+"testbed-synthetic scenarios, LLM-backed agent (hf:google/gemma-4-12b-it, prompt=defended)",B2_guarded,random,3385,0.6632200886262924,0.5063007662975807,0.01867072724751464,0.25109812415698035,0.5014381602268749,0.7556490094589917

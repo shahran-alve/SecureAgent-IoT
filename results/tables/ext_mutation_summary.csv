@@ -1,0 +1,7 @@
+evidence_class,operator,mutants,behaviour_changed,equivalent_on_grid,permissive,permissive_caught_by_oracle_or_liveness,permissive_caught_by_extended_oracle,killed_by_extended_oracle,killed_by_oracle,killed_by_liveness,killed_by_unit_tests,killed_any,survived_non_equivalent,mutation_score,killed_by_unit_tests_extended,killed_any_extended,survived_non_equivalent_extended,mutation_score_extended
+testbed-synthetic,relational,26,15,11,7,5,7,7,4,2,16,17,0,1.0,26,26,0,1.0
+testbed-synthetic,flip-allowed,27,16,11,13,12,13,13,11,4,9,17,1,0.9375,27,27,0,1.0
+testbed-synthetic,flip-approval,27,16,11,0,0,0,0,0,0,3,3,13,0.1875,27,27,0,1.0
+testbed-synthetic,negate-condition,29,25,4,15,12,15,15,11,2,26,26,0,1.0,29,29,0,1.0
+testbed-synthetic,logical,11,7,4,0,0,0,0,0,0,8,8,0,1.0,10,10,0,1.0
+testbed-synthetic,all,120,79,41,35,29,35,35,26,8,62,71,14,0.8227848101265823,119,119,0,1.0

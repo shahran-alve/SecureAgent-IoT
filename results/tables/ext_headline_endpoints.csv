@@ -1,0 +1,4 @@
+evidence_class,system,exec_attempts,prohibited_executions,prohibited_rate,within_policy_goal_executions,within_policy_goal_rate,suppression_attempts,suppression_successes,suppression_rate,wrongful_isolation_s_per_100_attacked,wrongful_isolation_s_per_100_control,review_rate_attacked,review_rate_control,repeat_share_of_shift_restricted,repeat_reviews
+testbed-synthetic,B1_unguarded,1120,750,0.6696428571428571,30,0.026785714285714284,160,160,1.0,10580.357142857143,53.57142857142857,0.0,0.38125,0.4166666666666667,0.0
+testbed-synthetic,B1v_schema_only,1120,750,0.6696428571428571,30,0.026785714285714284,160,160,1.0,10580.357142857143,53.57142857142857,0.0,0.38125,0.4166666666666667,0.0
+testbed-synthetic,B2_guarded,1120,0,0.0,20,0.017857142857142856,160,63,0.39375,535.7142857142857,53.57142857142857,0.859375,0.51796875,0.18541666666666667,22.2

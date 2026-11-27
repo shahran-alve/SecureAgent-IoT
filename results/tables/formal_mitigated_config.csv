@@ -1,0 +1,12 @@
+theorem,result,counterexample,evidence_class,configuration
+S1: Every authorization satisfies the written specification,proved,,"formal proof (Z3 SMT, all inputs)",full policy + bounded exemption (900 s/h) + hard ceilings (1800/2700 s/h)
+S2: No action is both allowed and sent to review,proved,,"formal proof (Z3 SMT, all inputs)",full policy + bounded exemption (900 s/h) + hard ceilings (1800/2700 s/h)
+S3: No autonomous restriction pushes a device past its budget,proved,,"formal proof (Z3 SMT, all inputs)",full policy + bounded exemption (900 s/h) + hard ceilings (1800/2700 s/h)
+S4: No high-criticality device is restricted without a valid approval,proved,,"formal proof (Z3 SMT, all inputs)",full policy + bounded exemption (900 s/h) + hard ceilings (1800/2700 s/h)
+"S5: No authorized restriction exceeds the duration cap, even with approval",proved,,"formal proof (Z3 SMT, all inputs)",full policy + bounded exemption (900 s/h) + hard ceilings (1800/2700 s/h)
+"S6: With a fleet cap set, no autonomous restriction pushes the fleet past it unless corroborated within the exemption budget",proved,,"formal proof (Z3 SMT, all inputs)",full policy + bounded exemption (900 s/h) + hard ceilings (1800/2700 s/h)
+"S7: No restriction, approved or corroborated, pushes a device or the fleet past a hard ceiling",proved,,"formal proof (Z3 SMT, all inputs)",full policy + bounded exemption (900 s/h) + hard ceilings (1800/2700 s/h)
+A1: A restriction that meets every condition is allowed without a human,proved,,"formal proof (Z3 SMT, all inputs)",full policy + bounded exemption (900 s/h) + hard ceilings (1800/2700 s/h)
+A4: A corroborated restriction within its device and exemption budgets is allowed even when the fleet cap is spent,proved,,"formal proof (Z3 SMT, all inputs)",full policy + bounded exemption (900 s/h) + hard ceilings (1800/2700 s/h)
+"A2: A notification for a strong, well-evidenced alert is escalated, not accepted",proved,,"formal proof (Z3 SMT, all inputs)",full policy + bounded exemption (900 s/h) + hard ceilings (1800/2700 s/h)
+A3: A review request from a grounded agent is always accepted,proved,,"formal proof (Z3 SMT, all inputs)",full policy + bounded exemption (900 s/h) + hard ceilings (1800/2700 s/h)
